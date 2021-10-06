@@ -11,7 +11,7 @@
     <?php include_once('header.php'); ?>
 
     <main>
-        <h1>Films</h1>
+        <h1 class="title-page">Films</h1>
     </main>
 </body>
 </html>
