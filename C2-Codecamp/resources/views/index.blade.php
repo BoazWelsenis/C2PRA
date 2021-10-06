@@ -7,10 +7,7 @@
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <title>Home</title>
 </head>
-<body>
-    <h1>Home</h1>
-
-    
+<body>    
     <header>
         <nav>
             <a href="#">Home</a>
@@ -21,5 +18,9 @@
             <div class="animation start-home"></div>
         </nav>
     </header>
+
+    <main>
+        <h1>Home</h1>
+    </main>
 </body>
 </html>
