@@ -32,7 +32,7 @@
                     <script language="javascript">
                         function updateClock() {
                             var now = new Date(), 
-                                months = ['Januari', 'February', 'Maart', 'April', 'Mei', 'juni', 'juli', 'autgustus', 'september', 'oktober', 'november', 'december'];
+                                months = ['januari', 'february', 'maart', 'april', 'mei', 'juni', 'juli', 'autgustus', 'september', 'oktober', 'november', 'december'];
                                 time = now.getHours() + ':' + now.getMinutes(),
 
                                 date = [now.getDate(), 
