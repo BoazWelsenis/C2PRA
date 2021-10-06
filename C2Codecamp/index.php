@@ -8,19 +8,12 @@
     <title>Home</title>
 </head>
 <body>    
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Boeken</a>
-            <a href="#">Films</a>
-            <a href="#">Muziek</a>
-            <a href="#">Gereedschap</a>
-            <div class="animation start-home"></div>
-        </nav>
-    </header>
+    <?php include_once('header.php'); ?>
 
     <main>
         <h1>Home</h1>
+
+
     </main>
 </body>
 </html>
