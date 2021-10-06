@@ -13,7 +13,16 @@
     <main>
         <h1>Home</h1>
 
+        <h2>Contact gegevens</h2>
 
+
+        <div class="datum-tijd">
+            <h2>Datum & Tijd</h2> 
+            <script language="javascript">
+                var today = new Date();
+                document.write(today);
+            </script>
+        </div>
     </main>
 </body>
 </html>
