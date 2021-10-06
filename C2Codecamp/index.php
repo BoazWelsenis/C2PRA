@@ -11,10 +11,10 @@
     <header>
         <nav>
             <a href="#">Home</a>
-            <a href="#">Boeken</a>
-            <a href="#">Films</a>
-            <a href="#">Muziek</a>
-            <a href="#">Gereedschap</a>
+            <a href="boeken.php">Boeken</a>
+            <a href="films.php">Films</a>
+            <a href="muziek.php">Muziek</a>
+            <a href="gereedschap.php">Gereedschap</a>
             <div class="animation start-home"></div>
         </nav>
     </header>
