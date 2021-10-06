@@ -9,5 +9,17 @@
 </head>
 <body>
     <h1>Home</h1>
+
+    
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Boeken</a>
+            <a href="#">Films</a>
+            <a href="#">Muziek</a>
+            <a href="#">Gereedschap</a>
+            <div class="animation start-home"></div>
+        </nav>
+    </header>
 </body>
 </html>
