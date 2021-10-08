@@ -26,6 +26,7 @@
 
                 <div class="datum-tijd">
                     <h2>Datum & Tijd</h2> 
+                    
                     <div id="time"> </div>
 
                     <!-- https://stackoverflow.com/questions/5091888/how-to-update-time-regularly -->
