@@ -34,7 +34,7 @@
                         function updateClock() {
                             var now = new Date(), 
                                 months = ['januari', 'february', 'maart', 'april', 'mei', 'juni', 'juli', 'autgustus', 'september', 'oktober', 'november', 'december'];
-                                time = now.getHours() + ':' + now.getMinutes(),
+                                time = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds(),
 
                                 date = [now.getDate(), 
                                         months[now.getMonth()],
