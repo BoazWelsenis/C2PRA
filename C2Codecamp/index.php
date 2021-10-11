@@ -8,7 +8,7 @@
     <title>Home</title>
 </head>
 <body>    
-    <?php include_once('header.php'); ?>
+    <?php include_once('components/header.php'); ?>
 
     <main>
         <div class="wrapper">
@@ -19,7 +19,7 @@
                 <div class="contact-info">
                     <h2>Contact gegevens</h2>
                     <p>John Doe</p>
-                    <p>06-12345678</p>
+                    <p>06-123456</p>
                     <a class="mail-link" href="mailto:john.doe@hotmail.com">john.doe@hotmail.com</a>
                 </div>
 
@@ -34,7 +34,7 @@
                         function updateClock() {
                             var now = new Date(), 
                                 months = ['januari', 'february', 'maart', 'april', 'mei', 'juni', 'juli', 'autgustus', 'september', 'oktober', 'november', 'december'];
-                                time = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds(),
+                                time = now.getHours() + ':' + now.getMinutes(),
 
                                 date = [now.getDate(), 
                                         months[now.getMonth()],
