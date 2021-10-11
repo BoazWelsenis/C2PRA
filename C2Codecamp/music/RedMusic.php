@@ -11,6 +11,8 @@
     require_once('../components/header.php');
     ?>
 <body>
-    
+    <h1>Plug in baby - Muse</h1>
+    <h1>Transylvia - Iron Maiden</h1>
+    <h1>Madness - Muse</h1>
 </body>
 </html>

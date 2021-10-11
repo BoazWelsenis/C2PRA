@@ -11,6 +11,8 @@
     require_once('../components/header.php');
     ?>
 <body>
-    
+    <h1>U Prising - My Baby</h1>
+    <h1>U Prising - Muse</h1>
+    <h1>Plug in baby - Muse</h1>
 </body>
 </html>

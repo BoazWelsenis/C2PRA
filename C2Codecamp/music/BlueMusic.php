@@ -11,6 +11,8 @@
     require_once('../components/header.php');
     ?>
 <body>
-    
+    <h1>We are the champions - Queen</h1>
+    <h1>Bohemian Rhapsody - Queen</h1>
+    <h1>Killer Queen - Queen</h1>
 </body>
 </html>
