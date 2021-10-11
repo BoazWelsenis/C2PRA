@@ -89,3 +89,9 @@ span {
 	margin-top: 1rem;
 	font-size: 20px;
 }
+
+.img-movies{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
