@@ -8,7 +8,7 @@
     <title>Home</title>
 </head>
 <body>    
-    <?php include_once('header.php'); ?>
+    <?php include_once('components/header.php'); ?>
 
     <main>
         <div class="wrapper">
