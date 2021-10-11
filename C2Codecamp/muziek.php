@@ -8,7 +8,7 @@
     <title>C2 CodeCamp - Muziek</title>
 </head>
 <body>    
-    <?php include_once('header.php'); ?>
+    <?php include_once('components/header.php'); ?>
 
     <main>
         <h1 class="title-page">Muziek</h1>
