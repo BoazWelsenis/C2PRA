@@ -1,2 +1,2 @@
 # C2PRA
-C2Codecamp is het juiste project --> C2-Codecamp was een test-project in Laravel!!
+Team: Boaz van Welsenis, Jano Hoek, Martijn Bot, Tijn van de Velde
