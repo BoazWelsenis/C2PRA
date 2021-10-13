@@ -13,9 +13,19 @@
 <body>
     <div class="wrapper">
         <h1>Plug in baby - Muse</h1>
+        <?php
+            $myfile = fopen("../Songteksten/PlugInBaby.txt", "r") or die("Unable to open file!");
+            echo fread($myfile,filesize("../SongTeksten/PlugInBaby.txt"));
+            fclose($myfile);
+        ?>
         <h1>Transylvia - Iron Maiden</h1>
         <p>Instrumental</p>
         <h1>Madness - Muse</h1>
+        <?php
+            $myfile = fopen("../Songteksten/Madness.txt", "r") or die("Unable to open file!");
+            echo fread($myfile,filesize("../SongTeksten/Madness.txt"));
+            fclose($myfile);
+        ?>
     </div>
 
 </body>
