@@ -19,7 +19,7 @@
                 <div class="contact-info">
                     <h2>Contact gegevens</h2>
                     <p>John Doe</p>
-                    <p>06-123456</p>
+                    <p>06-12345678</p>
                     <a class="mail-link" href="mailto:john.doe@hotmail.com">john.doe@hotmail.com</a>
                 </div>
 
