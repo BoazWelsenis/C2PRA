@@ -14,7 +14,12 @@
 
     <main>
         <div class="wrapper">
-            
+            <h1>Timonty Dalton</h1>
+        <?php
+                $myfile = fopen("../information-textfiles/timontydalton.txt", "r") or die("Unable to open file!");
+                echo fread($myfile,filesize("../information-textfiles/timontydalton.txt"));
+                fclose($myfile);
+            ?>
         </div>
     </main>
 </body>
