@@ -25,7 +25,124 @@ body {
 	width: 960px;
 }
 
-.navbar {
+span {
+    color: #2BD6B4;
+}
+
+.title-page{
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+.info-index-page{
+	color: white;
+}
+
+.contact-info{
+	margin-top: 2rem;
+	font-size: 20px;
+}
+
+.mail-link{
+	color: rgb(148, 143, 143);
+	font-weight: bold;
+}
+
+.datum-tijd{
+	margin-top: 1rem;
+	font-size: 20px;
+}
+
+.img-movies{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.layout-pages{
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+
+	margin-top: 2.5rem;
+}
+
+.fontsize-18{
+	font-size: 18px;
+}
+
+/* Nieuwe header/navbar */
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #1bc2a2;
+  }
+  
+  ul li {
+	display: block;
+	position: relative;
+	float: left;
+	background: #1bc2a2;
+  }
+  
+  /* This hides the dropdowns */
+  
+  
+  li ul { display: none; }
+  
+  ul li a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #fff;
+  }
+  
+  ul li a:hover { background: #2c3e50; }
+  
+  /* Display the dropdown */
+  
+  
+  li:hover > ul {
+	display: block;
+	position: absolute;
+  }
+  
+  li:hover li { float: none; }
+  
+  li:hover a { background: #1bc2a2; }
+  
+  li:hover li a:hover { background: #2c3e50; }
+  
+  .main-navigation li ul li { border-top: 0; }
+  
+  /* Displays second level dropdowns to the right of the first level dropdown */
+  
+  
+  ul ul ul {
+	left: 100%;
+	top: 0;
+  }
+  
+  /* Simple clearfix */
+  
+  
+  
+  ul:before,
+  ul:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+  }
+  
+  ul:after { clear: both; }
+
+/* Styling van oude header/navbar */
+
+/* .navbar {
 	overflow: hidden;
 	background-color: #333;
   }
@@ -83,52 +200,4 @@ body {
   
   .dropdown:hover .dropdown-content {
 	display: block;
-  }
-
-span {
-    color: #2BD6B4;
-}
-
-.title-page{
-	margin-top: 1rem;
-	text-align: center;
-	font-size: 35px;
-	color: white;
-}
-
-.info-index-page{
-	color: white;
-}
-
-.contact-info{
-	margin-top: 2rem;
-	font-size: 20px;
-}
-
-.mail-link{
-	color: rgb(148, 143, 143);
-	font-weight: bold;
-}
-
-.datum-tijd{
-	margin-top: 1rem;
-	font-size: 20px;
-}
-
-.img-movies{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.layout-pages{
-	display: flex;
-	flex-direction: column;
-	gap: 3rem;
-
-	margin-top: 2.5rem;
-}
-
-.fontsize-18{
-	font-size: 18px;
-}
+  } */
