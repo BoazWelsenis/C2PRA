@@ -13,7 +13,14 @@
     ?>
 
     <main>
-        
+        <div class="wrapper">
+            <h1>Schroevendraaiers</h1>
+        <?php
+                $myfile = fopen("../tools-textfiles/schroevendraaiers.txt", "r") or die("Unable to open file!");
+                echo fread($myfile,filesize("../tools-textfiles/schroevendraaiers.txt"));
+                fclose($myfile);
+            ?>
+        </div>
     </main>
 </body>
 </html>

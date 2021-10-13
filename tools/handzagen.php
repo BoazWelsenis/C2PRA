@@ -13,7 +13,14 @@
     ?>
 
     <main>
-        
+        <div class="wrapper">
+            <h1>Handzagen</h1>
+        <?php
+                $myfile = fopen("../tools-textfiles/handzagen.txt", "r") or die("Unable to open file!");
+                echo fread($myfile,filesize("../tools-textfiles/handzagen.txt"));
+                fclose($myfile);
+            ?>
+        </div>
     </main>
 </body>
 </html>

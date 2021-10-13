@@ -13,7 +13,14 @@
     ?>
 
     <main>
-        
+        <div class="wrapper">
+            <h1>Kettingzagen</h1>
+        <?php
+                $myfile = fopen("../tools-textfiles/kettingzagen.txt", "r") or die("Unable to open file!");
+                echo fread($myfile,filesize("../tools-textfiles/kettingzagen.txt"));
+                fclose($myfile);
+            ?>
+        </div>
     </main>
 </body>
 </html>

@@ -13,7 +13,14 @@
     ?>
 
     <main>
-        
+        <div class="wrapper">
+            <h1>Hamers</h1>
+        <?php
+                $myfile = fopen("../tools-textfiles/hamers.txt", "r") or die("Unable to open file!");
+                echo fread($myfile,filesize("../tools-textfiles/hamers.txt"));
+                fclose($myfile);
+            ?>
+        </div>
     </main>
 </body>
 </html>

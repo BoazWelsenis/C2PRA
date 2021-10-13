@@ -13,7 +13,14 @@
     ?>
 
     <main>
-        
+        <div class="wrapper">
+            <h1>Cirkelzagen</h1>
+            <?php
+                $myfile = fopen("../tools-textfiles/cirkelzagen.txt", "r") or die("Unable to open file!");
+                echo fread($myfile,filesize("../tools-textfiles/cirkelzagen.txt"));
+                fclose($myfile);
+            ?>
+        </div>
     </main>
 </body>
 </html>
