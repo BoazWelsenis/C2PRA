@@ -12,11 +12,11 @@
     ?>
 <body>
     <div class="wrapper">
-        <div class="layout-music-pages">
+        <div class="layout-pages">
             <div class="mybaby">
                 <h1>U Prising - My Baby</h1>
 
-                <div class="songtext">
+                <div class="fontsize-18">
                     <?php
                         $myfile = fopen("../Songteksten/U-Prising-MyBaby.txt", "r") or die("Unable to open file!");
                         echo fread($myfile,filesize("../SongTeksten/U-Prising-MyBaby.txt"));
@@ -26,7 +26,7 @@
             </div>
             <div class="muse">
                 <h1>U Prising - Muse</h1>
-                <div class="songtext">
+                <div class="fontsize-18">
                     <?php
                         $myfile = fopen("../Songteksten/U-Prising-Muse.txt", "r") or die("Unable to open file!");
                         echo fread($myfile,filesize("../SongTeksten/U-Prising-Muse.txt"));
@@ -36,7 +36,7 @@
             </div>
 
             <div class="muse">
-                <div class="songtext">
+                <div class="fontsize-18">
                     <h1>Plug in baby - Muse</h1>
                     <?php
                         $myfile = fopen("../Songteksten/PlugInBaby.txt", "r") or die("Unable to open file!");

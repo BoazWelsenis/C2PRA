@@ -121,7 +121,7 @@ span {
     justify-content: center;
 }
 
-.layout-music-pages{
+.layout-pages{
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
@@ -129,6 +129,6 @@ span {
 	margin-top: 2.5rem;
 }
 
-.songtext{
+.fontsize-18{
 	font-size: 18px;
 }
