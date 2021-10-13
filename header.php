@@ -6,6 +6,8 @@
 
         <a href="<?php echo $base_url ?>/movies/films.php">Films</a>
 
+        <a href="<?php echo $base_url ?>/books/boeken.php">Boeken</a>
+
         <div class="dropdown">
             <button class="dropbtn">Songteksten 
                 <i class="fa fa-caret-down"></i>
@@ -22,7 +24,6 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
             <div class="dropdown-content">
-                <a href="<?php echo $base_url ?>/tools/boeken.php">Boeken</a>
                 <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a>
                 <a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a>
                 <a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a>
