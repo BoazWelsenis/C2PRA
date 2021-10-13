@@ -14,7 +14,12 @@
 
     <main>
         <div class="wrapper">
-            
+            <h1>Luke Skywalker</h1>
+        <?php
+                $myfile = fopen("../information-textfiles/lukeskywalker.txt", "r") or die("Unable to open file!");
+                echo fread($myfile,filesize("../information-textfiles/lukeskywalker.txt"));
+                fclose($myfile);
+            ?>
         </div>
     </main>
 </body>
