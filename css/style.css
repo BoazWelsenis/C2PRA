@@ -17,6 +17,7 @@ body {
 	font-size: 12px;
 	font-family: sans-serif;
 	background: #2c3e50;
+	color: white;
 }
 
 .wrapper{
@@ -118,4 +119,16 @@ span {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.layout-music-pages{
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+
+	margin-top: 2.5rem;
+}
+
+.songtext{
+	font-size: 18px;
 }

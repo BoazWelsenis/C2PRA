@@ -42,6 +42,7 @@
                 <a href="<?php echo $base_url ?>/information/darthvader.php">Darth Vader</a>
                 <a href="<?php echo $base_url ?>/information/timontydalton.php">Timonty Dalton</a>
                 <a href="<?php echo $base_url ?>/information/lukeskywalker.php">Luke Skywalker</a>
+                <a href="<?php echo $base_url ?>/information/georgecloony.php">George Cloony</a>
             </div>
         </div> 
     </div>
