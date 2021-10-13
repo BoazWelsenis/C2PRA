@@ -12,24 +12,42 @@
     ?>
 <body>
     <div class="wrapper">
-    <h1>We are the champions - Queen</h1>
-    <?php
-        $myfile = fopen("../Songteksten/WeAreTheChampions.txt", "r") or die("Unable to open file!");
-        echo fread($myfile,filesize("../SongTeksten/WeAreTheChampions.txt"));
-        fclose($myfile);
-    ?>
-    <h1>Bohemian Rhapsody - Queen</h1>
-    <?php
-        $myfile = fopen("../Songteksten/BohemianRhapsody.txt", "r") or die("Unable to open file!");
-        echo fread($myfile,filesize("../SongTeksten/BohemianRhapsody.txt"));
-        fclose($myfile);
-    ?>
-    <h1>Killer Queen - Queen</h1>
-    <?php
-        $myfile = fopen("../Songteksten/KillerQueen.txt", "r") or die("Unable to open file!");
-        echo fread($myfile,filesize("../SongTeksten/KillerQueen.txt"));
-        fclose($myfile);
-    ?>
+        <div class="layout-music-pages">
+            <div class="queen">
+                <h1>We are the champions - Queen</h1>
+
+                <div class="songtext">
+                    <?php
+                        $myfile = fopen("../Songteksten/WeAreTheChampions.txt", "r") or die("Unable to open file!");
+                        echo fread($myfile,filesize("../SongTeksten/WeAreTheChampions.txt"));
+                        fclose($myfile);
+                    ?>
+                </div>
+            </div>
+            
+            <div class="queen">
+                <h1>Bohemian Rhapsody - Queen</h1>
+                <div class="songtext">
+                    <?php
+                        $myfile = fopen("../Songteksten/BohemianRhapsody.txt", "r") or die("Unable to open file!");
+                        echo fread($myfile,filesize("../SongTeksten/BohemianRhapsody.txt"));
+                        fclose($myfile);
+                    ?>
+                </div>
+            </div>
+
+            <div class="queen">
+                <h1>Killer Queen - Queen</h1>
+
+                <div class="songtext">
+                    <?php
+                        $myfile = fopen("../Songteksten/KillerQueen.txt", "r") or die("Unable to open file!");
+                        echo fread($myfile,filesize("../SongTeksten/KillerQueen.txt"));
+                        fclose($myfile);
+                    ?>
+                </div>
+            </div>
+        </div>
     </div>
     
 </body>

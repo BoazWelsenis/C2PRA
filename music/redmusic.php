@@ -12,20 +12,36 @@
     ?>
 <body>
     <div class="wrapper">
-        <h1>Plug in baby - Muse</h1>
-        <?php
-            $myfile = fopen("../Songteksten/PlugInBaby.txt", "r") or die("Unable to open file!");
-            echo fread($myfile,filesize("../SongTeksten/PlugInBaby.txt"));
-            fclose($myfile);
-        ?>
-        <h1>Transylvia - Iron Maiden</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GY0RZriJ3gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h1>Madness - Muse</h1>
-        <?php
-            $myfile = fopen("../Songteksten/Madness.txt", "r") or die("Unable to open file!");
-            echo fread($myfile,filesize("../SongTeksten/Madness.txt"));
-            fclose($myfile);
-        ?>
+        <div class="layout-music-pages">
+
+            <div class="muse">
+                <h1>Plug in baby - Muse</h1>
+
+                <div class="songtext">
+                    <?php
+                        $myfile = fopen("../Songteksten/PlugInBaby.txt", "r") or die("Unable to open file!");
+                        echo fread($myfile,filesize("../SongTeksten/PlugInBaby.txt"));
+                        fclose($myfile);
+                    ?>
+                </div>
+            </div>
+
+            <div class="ironmaidon">
+                <h1>Transylvia - Iron Maiden</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GY0RZriJ3gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="muse">
+                <h1>Madness - Muse</h1>
+                <div class="songtext">
+                    <?php
+                        $myfile = fopen("../Songteksten/Madness.txt", "r") or die("Unable to open file!");
+                        echo fread($myfile,filesize("../SongTeksten/Madness.txt"));
+                        fclose($myfile);
+                    ?>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
