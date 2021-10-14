@@ -13,7 +13,13 @@
     ?>
 
     <main>
-    <a href="thee.php">C2PRA/dranken/thee.php</a>
+        <div class="wrapper">
+        <a href="thee.php">C2PRA/dranken/thee.php</a>
+        <h1>Thee</h1>
+        <p>Thee is een warme drank die wordt gemaakt door infusie van de gedroogde bladeren van de theeplant Camellia sinensis. Alle als thee verkochte producten die niet van deze plant afkomstig zijn, zijn dan ook geen echte thee maar kruidenthee. De naam thee komt waarschijnlijk uit het Chinese dialect Minnanyu.</p>
+        <img src="../img/thee.png" alt="">
+        </div>
+    
     </main>
 </body>
 </html>

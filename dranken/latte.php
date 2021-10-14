@@ -13,7 +13,12 @@
     ?>
 
     <main>
+        <div class="wrapper">
     <a href="latte.php">C2PRA/dranken/latte.php</a>
+    <h1>Latte</h1>
+    <p>Een latte macchiato is een koffiedrank die bestaat uit laagjes van melk en espresso. Latte betekent melk en macchiato staat voor gevlekt. Wat er ontstaat als er op de juiste wijze espresso aan de latte wordt toegevoegd is een vlek in de melk.</p>
+    <img src="../img/latte.png" alt="">
+    </div>
     </main>
 </body>
 </html>
