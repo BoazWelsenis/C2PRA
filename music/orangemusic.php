@@ -10,7 +10,7 @@
     <?php 
     require_once('../header.php');
     ?>
-<body>
+<body class="orange-bg">
     <div class="wrapper">
         <div class="layout-pages">
             <div class="mybaby">

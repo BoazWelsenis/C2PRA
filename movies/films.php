@@ -13,20 +13,21 @@
     <main>
         <a href="films.php">C2PRA/movies/films.php</a>
         <h1 class="title-page">Films</h1>
+    <div class="wrapper">
+        <div class="img-movies">   
+            <a href="https://www.imdb.com" target="_blank">
+            <img alt="imdb" src="../img/imdb-logo.png" width="100" height="100">
+            </a>
 
-    <div class="img-movies">   
-        <a href="https://www.imdb.com" target="_blank">
-        <img alt="imdb" src="../img/imdb-logo.png" width="100" height="100">
-        </a>
+            <a href="https://www.videoland.nl" target="_blank">
+            <img alt="imdb" src="../img/videoland-logo.jpg" width="100" height="100">
+            </a>
 
-        <a href="https://www.videoland.nl" target="_blank">
-        <img alt="imdb" src="../img/videoland-logo.png" width="100" height="100">
-        </a>
-
-        <a href="https://www.movies.nl" target="_blank">
-        <img alt="imdb" src="../img/movies-logo.png" width="100" height="100">
-        </a>
-    </div> 
+            <a href="https://www.movies.nl" target="_blank">
+            <img alt="imdb" src="../img/movies-logo.jpg" width="100" height="100">
+            </a>
+        </div> 
+    </div>
     
     </main>
 </body>

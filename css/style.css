@@ -58,7 +58,11 @@ span {
 .img-movies{
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.img-movies img{
+	border-radius: 20px;
 }
 
 .layout-pages{
@@ -71,6 +75,16 @@ span {
 
 .fontsize-18{
 	font-size: 18px;
+}
+
+.blue-bg{
+	background-color: var(--blue);
+}
+.orange-bg{
+	background-color: var(--orange-brown);
+}
+.red-bg{
+	background-color: var(--red);
 }
 
 /* Nieuwe header/navbar */
