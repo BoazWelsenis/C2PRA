@@ -18,7 +18,11 @@
 
                 <div class="cola">
                     <div class="fontsize-18">
-                        <a href="cola.php">C2PRA/dranken/cola.php</a>
+                        <div class="flex">
+                            <a href="cola.php">C2PRA/dranken/cola.php</a>
+                            <p class="link-color">Of ga naar: <a href="../information/jamesbond.php">Roger Moore</a></p>
+                        </div>
+
                         <h1>Cola</h1>
                         <p>Cola is een koolzuurhoudende frisdrank. Het smaakt zoet en bevat circa 28-32 mg cafeïne per 33 cl. Andere belangrijke ingrediënten zijn vanille, kaneel, karamel en citroen. Anders dan de meeste frisdranken bevat het geen citroenzuur, maar fosforzuur. Dieetcola bevat zowel fosforzuur als citroenzuur.</p>
                         <img src="../img/cola.png" alt="">

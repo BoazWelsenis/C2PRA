@@ -103,6 +103,18 @@ span {
 	max-height: 100%;
 }
 
+.link-color a{
+	color: #101010;
+    font-weight: bold;
+    border-bottom: 2px solid #101010;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	/* gap: 1rem; */
+}
+
 /* Nieuwe header/navbar */
 
 .main-navigation {
