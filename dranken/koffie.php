@@ -14,11 +14,17 @@
 
     <main>
         <div class="wrapper">
-            <a href="koffie.php">C2PRA/dranken/koffie.php</a>
-            <h1>Koffie</h1>
-            <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne</p>
-            <img src="../img/koffie.png" alt="">
-    </div>
+            <div class="layout-pages">
+                <div class="koffie">
+                    <div class="fontsize-18">
+                        <a href="koffie.php">C2PRA/dranken/koffie.php</a>
+                        <h1>Koffie</h1>
+                        <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne</p>
+                        <img src="../img/koffie.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

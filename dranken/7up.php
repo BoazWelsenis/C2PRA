@@ -14,10 +14,17 @@
 
     <main>
         <div class="wrapper">
-        <a href="7up.php">C2PRA/dranken/7up.php</a>
-        <h1>7UP</h1>
-        <p>7Up (of Seven-Up) is een frisdrankmerk van Dr Pepper Snapple Group in de Verenigde Staten en PepsiCo in de rest van de wereld.</p>
-        <img src="../img/7up.png" alt="">
+            <div class="layout-pages">
+                
+                <div class="7-up">
+                    <div class="fontsize-18">
+                        <a href="7up.php">C2PRA/dranken/7up.php</a>
+                        <h1>7UP</h1>
+                        <p>7Up (of Seven-Up) is een frisdrankmerk van Dr Pepper Snapple Group in de Verenigde Staten en PepsiCo in de rest van de wereld.</p>
+                        <img src="../img/7up.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>
