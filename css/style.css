@@ -247,3 +247,14 @@ ul {
   .dropdown:hover .dropdown-content {
 	display: block;
   } */
+.easter-egg span{
+	color: #2c3e50;
+	font-size: 20px;
+}
+.easter-egg{
+	float: right;
+	margin-top: 300px;
+}
+.easter-egg span:hover{
+	color: red;
+}

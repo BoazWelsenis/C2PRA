@@ -26,6 +26,9 @@
                     ?>
                 </div>
             </div>
+            <div class="easter-egg">
+            <span>De week kan je ook door de middenzagen</span>
+            </div>
         </div>
     </main>
 </body>
