@@ -99,7 +99,6 @@
         </ul>
         <li><a href="<?php echo $base_url ?>/tools/schroevendraaiers.php">Schroevendraaiers</a></li>
         <li><a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a></li>
-        <li><a href="https://nl.linkedin.com/in/rick-bruijs">Rick's OnlyFans</a></li>
       </li>
     </ul>
   </li>
