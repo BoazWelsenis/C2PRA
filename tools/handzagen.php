@@ -15,6 +15,7 @@
     <main>
         <div class="wrapper">
             <div class="layout-pages">
+            <a href="handzagen.php">C2PRA/tools/handzagen.php</a>
                 <h1>Handzagen</h1>
 
                 <div class="fontsize-18">

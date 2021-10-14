@@ -14,6 +14,7 @@
     <div class="wrapper">
         <div class="layout-pages">
             <div class="queen">
+                <a href="bluemusic.php">C2PRA/music/bluemusic.php</a>
                 <h1>We are the champions - Queen</h1>
 
                 <div class="fontsize-18">

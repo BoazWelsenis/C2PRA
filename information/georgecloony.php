@@ -15,6 +15,7 @@
     <main>
         <div class="wrapper">
             <div class="layout-pages">
+            <a href="georgecloony.php">C2PRA/information/georgecloony.php</a>
                 <h1>George Cloony</h1>
 
                 <div class="fontsize-18">
