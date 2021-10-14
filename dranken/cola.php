@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>C2 CodeCamp - Cola</title>
 </head>
-<body>
+<body class="orange-bg">
     <?php 
         require_once('../header.php');
     ?>

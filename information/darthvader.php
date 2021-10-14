@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>C2 CodeCamp - Darth Vader</title>
 </head>
-<body>
+<body class="yellow-bg">
     <?php 
         require_once('../header.php');
     ?>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>C2 CodeCamp - Luke Skywalker</title>
 </head>
-<body>
+<body class="green-bg">
     <?php 
         require_once('../header.php');
     ?>
