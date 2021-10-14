@@ -15,6 +15,7 @@
     <main>
         <div class="wrapper">
             <div class="layout-pages">
+                <a href="darthvader.php">C2PRA/information/darthvader.php</a>
                 <h1>Darth Vader</h1>
 
                 <div class="fontsize-18">

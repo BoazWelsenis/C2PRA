@@ -14,6 +14,7 @@
 
     <main>
         <div class="wrapper">
+        <a href="jamesbond.php">C2PRA/information/jamesbond.php</a>
             <h1>James Bond</h1>
             
         </div>
