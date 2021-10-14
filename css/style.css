@@ -58,7 +58,11 @@ span {
 .img-movies{
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.img-movies img{
+	border-radius: 20px;
 }
 
 .layout-pages{
