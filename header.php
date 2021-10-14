@@ -91,11 +91,15 @@
   </li>
   <li><a href="">Gereedschappen</a>
     <ul>
-        <li><a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a></li>
-        <li><a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a></li>
-        <li><a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a></li>
-        <li><a href="<?php echo $base_url ?>/tools/handzagen.php">Handzagen</a></li>
+      <li><a href="">Zagen</a>
+        <ul>
+            <li><a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a></li>
+            <li><a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a></li>
+            <li><a href="<?php echo $base_url ?>/tools/handzagen.php">Handzagen</a></li>
+        </ul>
         <li><a href="<?php echo $base_url ?>/tools/schroevendraaiers.php">Schroevendraaiers</a></li>
+        <li><a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a></li>
+      </li>
     </ul>
   </li>
   <li><a href="">Dranken</a>
