@@ -23,7 +23,7 @@
                     <div class="film-item"><li><a href="https://www.imdb.com/title/tt0076752/?ref_=fn_al_tt_1">The Spy Who Loved Me</a><a href="https://www.imdb.com/title/tt0076752/?ref_=fn_al_tt_1"><img src="../img/James-bond-covers/the-spy-who-loved-me.jpg" alt="Cover"></a></li></div>
                     <div class="film-item"><li><a href="https://www.imdb.com/title/tt0079574/?ref_=fn_al_tt_1">Moonraker</a><a href="https://www.imdb.com/title/tt0079574/?ref_=fn_al_tt_"><img src="../img/James-bond-covers/moonraker.jpg" alt="Cover"></a></li></div>
                     <div class="film-item"><li><a href="https://www.imdb.com/title/tt0082398/">For Your Eyes Only</a><a href="https://www.imdb.com/title/tt0082398/"><img src="../img/James-bond-covers/for-your-eyes-only.jpg" alt="Cover"></a></li></div>
-                    <div class="film-item"><li><a href="https://www.imdb.com/title/tt0086034/?ref_=nv_sr_srsg_0">Octopussy<a href="https://www.imdb.com/title/tt0086034/?ref_=nv_sr_srsg_0"><img src="../img/James-bond-covers/octopussy.jpg" alt="Cover"></a></li></div>
+                    <div class="film-item"><li><a href="https://www.imdb.com/title/tt0086034/?ref_=nv_sr_srsg_0">OctoPUSSY<a href="https://www.imdb.com/title/tt0086034/?ref_=nv_sr_srsg_0"><img src="../img/James-bond-covers/octopussy.jpg" alt="Cover"></a></li></div>
                     <div class="film-item"><li><a href="https://www.imdb.com/title/tt0090264/?ref_=fn_al_tt_1">A View to a Kill<a href="https://www.imdb.com/title/tt0090264/?ref_=fn_al_tt_1"><img src="../img/James-bond-covers/a-view-to-kill.jpg" alt="Cover"></a></li></div>
                 </div>
             </ul>
