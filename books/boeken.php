@@ -13,9 +13,9 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="boeken.php">C2PRA/books/boeken.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-                <a href="boeken.php">C2PRA/books/boeken.php</a>
                 <h1>Boeken</h1>
 
                 <div class="fontsize-18">

@@ -11,10 +11,10 @@
     require_once('../header.php');
     ?>
 <body class="orange-bg">
+<a class="link-substructure" href="orangemusic.php">C2PRA/music/orangemusic.php</a>
     <div class="wrapper">
         <div class="layout-pages">
             <div class="mybaby">
-            <a href="orangemusic.php">C2PRA/music/orangemusic.php</a>
                 <h1>U Prising - My Baby</h1>
 
                 <div class="fontsize-18">

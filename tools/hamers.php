@@ -13,9 +13,9 @@
     ?>
 
     <main>
+    <a class="link-substructure" href="hamers.php">C2PRA/tools/hamers.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-            <a href="hamers.php">C2PRA/tools/hamers.php</a>
                 <h1>Hamers</h1>
 
                 <div class="fontsize-18">

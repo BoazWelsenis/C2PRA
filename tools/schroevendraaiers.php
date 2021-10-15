@@ -13,9 +13,9 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="schroevendraaiers.php">C2PRA/tools/schroevendraaiers.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-            <a href="schroevendraaiers.php">C2PRA/tools/schroevendraaiers.php</a>
                 <h1>Schroevendraaiers</h1>
 
                 <div class="fontsize-18">

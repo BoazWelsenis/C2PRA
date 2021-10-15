@@ -13,9 +13,9 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="georgecloony.php">C2PRA/information/georgecloony.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-            <a href="georgecloony.php">C2PRA/information/georgecloony.php</a>
                 <h1>George Clooney</h1>
 
                 <div class="fontsize-18">

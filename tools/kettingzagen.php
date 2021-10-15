@@ -13,9 +13,9 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="kettingzagen.php">C2PRA/tools/kettingzagen.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-            <a href="kettingzagen.php">C2PRA/tools/kettingzagen.php</a>
                 <h1>Kettingzagen</h1>
 
                 <div class="fontsize-18">

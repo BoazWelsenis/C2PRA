@@ -13,13 +13,12 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="cola.php">C2PRA/dranken/cola.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-
                 <div class="cola">
                     <div class="fontsize-18">
                         <div class="flex">
-                            <a href="cola.php">C2PRA/dranken/cola.php</a>
                             <p class="link-color">Of ga naar: <a href="../information/jamesbond.php">Roger Moore</a></p>
                         </div>
 

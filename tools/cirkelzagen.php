@@ -13,9 +13,9 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="cirkelzagen.php">C2PRA/tools/cirkelzagen.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-                <a href="cirkelzagen.php">C2PRA/tools/cirkelzagen.php</a>
                 <h1>Cirkelzagen</h1>
 
                 <div class="fontsize-18">

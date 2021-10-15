@@ -13,9 +13,9 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="lukeskywalker.php">C2PRA/information/lukeskywalker.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-                <a href="lukeskywalker.php">C2PRA/information/lukeskywalker.php</a>
                 <h1>Luke Skywalker</h1>
 
                 <div class="fontsize-18">

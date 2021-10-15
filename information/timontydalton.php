@@ -13,9 +13,9 @@
     ?>
 
     <main>
+        <a class="link-substructure" href="timontydalton.php">C2PRA/information/timontydalton.php</a>
         <div class="wrapper">
             <div class="layout-pages">
-                <a href="timontydalton.php">C2PRA/information/timontydalton.php</a>
                 <h1>Timonty Dalton</h1>
 
                 <div class="fontsize-18">
