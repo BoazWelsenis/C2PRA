@@ -13,7 +13,8 @@
     ?>
 
     <main>
-        <div class="wrapper">      
+        <div class="wrapper">
+        <a href="jamesbond.php">C2PRA/information/jamesbond.php</a>
         <h1>Lijst van James Bond films met Roger Moore</h1>
             <ul>
                 <div class="grid">
