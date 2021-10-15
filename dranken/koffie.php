@@ -19,9 +19,9 @@
                 <div class="koffie">
                     <div class="fontsize-18">
                         <div class="flex">
+                            <h1>Koffie</h1>                            
                             <p class="link-color">Of ga naar: <a href="../information/georgecloony.php">George Clooney</a></p>
                         </div>
-                        <h1>Koffie</h1>
                         <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne</p>
                         <img src="../img/koffie.png" alt="">
                     </div>
