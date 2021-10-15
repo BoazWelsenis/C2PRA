@@ -131,6 +131,13 @@ span {
 	/* gap: 1rem; */
 }
 
+.link-substructure{
+	color: white;
+    border-bottom: 2px solid lightblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 /* Nieuwe header/navbar */
 
 .main-navigation {
