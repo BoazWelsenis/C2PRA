@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="lukeskywalker.php">C2PRA/information/lukeskywalker.php</a>
+        <a class="link-substructure" href="lukeskywalker.php"><?php echo $base_url; ?>/information/lukeskywalker.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Luke Skywalker</h1>

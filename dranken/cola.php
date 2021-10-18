@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="cola.php">C2PRA/dranken/cola.php</a>
+        <a class="link-substructure" href="cola.php"><?php echo $base_url; ?>/dranken/cola.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <div class="cola">

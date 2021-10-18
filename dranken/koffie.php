@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="koffie.php">C2PRA/dranken/koffie.php</a>
+        <a class="link-substructure" href="koffie.php"><?php echo $base_url; ?>/dranken/koffie.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <div class="koffie">

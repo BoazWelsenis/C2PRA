@@ -11,7 +11,7 @@
     <?php include_once('../header.php'); ?>
 
     <main>
-        <a href="films.php" class="link-substructure">C2PRA/movies/films.php</a>
+        <a href="films.php" class="link-substructure"><?php echo $base_url; ?>/movies/films.php</a>
         <h1 class="title-page">Films</h1>
     <div class="wrapper">
         <div class="img-movies">   

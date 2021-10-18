@@ -11,7 +11,7 @@
     require_once('../header.php');
     ?>
 <body class="blue-bg">
-<a class="link-substructure" href="bluemusic.php">C2PRA/music/bluemusic.php</a>
+<a class="link-substructure" href="bluemusic.php"><?php echo $base_url; ?>/music/bluemusic.php</a>
     <div class="wrapper">
         <div class="layout-pages">
             <div class="queen">

@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="boeken.php">C2PRA/books/boeken.php</a>
+        <a class="link-substructure" href="boeken.php"><?php echo $base_url; ?>/books/boeken.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Boeken</h1>

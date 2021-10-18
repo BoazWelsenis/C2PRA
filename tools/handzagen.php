@@ -13,7 +13,7 @@
     ?>
 
     <main>
-    <a class="link-substructure" href="handzagen.php">C2PRA/tools/handzagen.php</a>
+    <a class="link-substructure" href="handzagen.php"><?php echo $base_url; ?>/tools/handzagen.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Handzagen</h1>

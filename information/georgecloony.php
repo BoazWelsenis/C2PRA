@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="georgecloony.php">C2PRA/information/georgecloony.php</a>
+        <a class="link-substructure" href="georgecloony.php"><?php echo $base_url; ?>/information/georgecloony.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>George Clooney</h1>

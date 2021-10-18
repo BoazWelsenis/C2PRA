@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="cirkelzagen.php">C2PRA/tools/cirkelzagen.php</a>
+        <a class="link-substructure" href="cirkelzagen.php"><?php echo $base_url; ?>/tools/cirkelzagen.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Cirkelzagen</h1>

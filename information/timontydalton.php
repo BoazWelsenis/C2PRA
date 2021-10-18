@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="timontydalton.php">C2PRA/information/timontydalton.php</a>
+        <a class="link-substructure" href="timontydalton.php"><?php echo $base_url; ?>/information/timontydalton.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Timonty Dalton</h1>

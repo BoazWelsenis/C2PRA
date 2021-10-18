@@ -13,7 +13,7 @@
     ?>
 
     <main>
-    <a class="link-substructure" href="hamers.php">C2PRA/tools/hamers.php</a>
+    <a class="link-substructure" href="hamers.php"><?php echo $base_url; ?>/tools/hamers.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Hamers</h1>

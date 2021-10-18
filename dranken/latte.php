@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure"href="latte.php">C2PRA/dranken/latte.php</a>
+        <a class="link-substructure"href="latte.php"><?php echo $base_url; ?>/dranken/latte.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <div class="latte">

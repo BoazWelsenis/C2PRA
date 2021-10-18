@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="sinas.php">C2PRA/dranken/sinas.php</a>
+        <a class="link-substructure" href="sinas.php"><?php echo $base_url; ?>/dranken/sinas.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <div class="sinas">

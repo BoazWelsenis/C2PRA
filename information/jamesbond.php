@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="jamesbond.php">C2PRA/information/jamesbond.php</a>
+        <a class="link-substructure" href="jamesbond.php"><?php echo $base_url; ?>/information/jamesbond.php</a>
         <div class="wrapper">
         <h1>Lijst van James Bond films met Roger Moore</h1>
             <ul>

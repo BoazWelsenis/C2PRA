@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="schroevendraaiers.php">C2PRA/tools/schroevendraaiers.php</a>
+        <a class="link-substructure" href="schroevendraaiers.php"><?php echo $base_url; ?>/tools/schroevendraaiers.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Schroevendraaiers</h1>

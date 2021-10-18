@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="kettingzagen.php">C2PRA/tools/kettingzagen.php</a>
+        <a class="link-substructure" href="kettingzagen.php"><?php echo $base_url; ?>/tools/kettingzagen.php</a>
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Kettingzagen</h1>
