@@ -37,8 +37,8 @@
             </div>
 
             <div class="muse">
+                <h1>Plug in baby - Muse</h1>
                 <div class="fontsize-18">
-                    <h1>Plug in baby - Muse</h1>
                     <?php
                         $myfile = fopen("../Songteksten/PlugInBaby.txt", "r") or die("Unable to open file!");
                         echo fread($myfile,filesize("../Songteksten/PlugInBaby.txt"));
