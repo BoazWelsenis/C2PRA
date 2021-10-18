@@ -15,7 +15,7 @@
     <div class="wrapper">
         <div class="layout-pages">
             <div class="mybaby">
-                <h1>U Prising - My Baby</h1>
+                <h1>Uprising - My Baby</h1>
 
                 <div class="fontsize-18">
                     <?php
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="muse">
-                <h1>U Prising - Muse</h1>
+                <h1>Uprising - Muse</h1>
                 <div class="fontsize-18">
                     <?php
                         $myfile = fopen("../Songteksten/U-Prising-Muse.txt", "r") or die("Unable to open file!");
