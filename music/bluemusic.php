@@ -20,7 +20,7 @@
                 <div class="fontsize-18">
                     <?php
                         $myfile = fopen("../Songteksten/WeAreTheChampions.txt", "r") or die("Unable to open file!");
-                        echo fread($myfile,filesize("../SongTeksten/WeAreTheChampions.txt"));
+                        echo fread($myfile,filesize("../Songteksten/WeAreTheChampions.txt"));
                         fclose($myfile);
                     ?>
                 </div>
@@ -31,7 +31,7 @@
                 <div class="fontsize-18">
                     <?php
                         $myfile = fopen("../Songteksten/BohemianRhapsody.txt", "r") or die("Unable to open file!");
-                        echo fread($myfile,filesize("../SongTeksten/BohemianRhapsody.txt"));
+                        echo fread($myfile,filesize("../Songteksten/BohemianRhapsody.txt"));
                         fclose($myfile);
                     ?>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="fontsize-18">
                     <?php
                         $myfile = fopen("../Songteksten/KillerQueen.txt", "r") or die("Unable to open file!");
-                        echo fread($myfile,filesize("../SongTeksten/KillerQueen.txt"));
+                        echo fread($myfile,filesize("../Songteksten/KillerQueen.txt"));
                         fclose($myfile);
                     ?>
                 </div>
