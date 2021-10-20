@@ -89,6 +89,7 @@
         <li><a href="<?php echo $base_url ?>/information/darthvader.php">Darth Vader</a></li>
         <li><a href="<?php echo $base_url ?>/information/timontydalton.php">Timonty Dalton</a></li>
         <li><a href="<?php echo $base_url ?>/information/lukeskywalker.php">Luke Skywalker</a></li>
+        <li><a href="<?php echo $base_url ?>/information/georgecloony.php">George Clooney</a></li>
     </ul>
   </li>
   <li><a href="">Gereedschappen</a>
