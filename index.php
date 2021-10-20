@@ -22,6 +22,10 @@
                     <p>06-12345678</p>
                     <a class="mail-link" href="mailto:john.doe@hotmail.com">john.doe@hotmail.com</a>
                     <p class="adres">Koestraat 1 Den Bosch</p>
+                    
+                    <div class="plattegrond-omgeving">
+                        <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Koestraat%201%20Den%20Bosch+(Koestraat%201%20Den%20Bosch)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/nl/cirkel-straal-kaart/">Cirkel op kaart Google</a></iframe></div>
+                    </div>
                 </div>
 
 
