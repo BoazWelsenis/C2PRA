@@ -72,6 +72,7 @@
 <header>
 <ul class="main-navigation">
   <li><a href="<?php echo $base_url ?>/index.php">Home</a></li>
+  <li><a href="<?php echo $base_url ?>/chat.php">Chatten</a></li>
   <li><a href="<?php echo $base_url ?>/movies/films.php">Films</a></li>
   <li><a href="<?php echo $base_url ?>/books/boeken.php">Boeken</a></li>
   <li><a href="">Songteksten</a>
