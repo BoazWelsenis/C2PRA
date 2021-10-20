@@ -45,6 +45,9 @@ function loginForm(){
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
+    <?php 
+        require_once('header.php');
+    ?>
     <?php
     if(!isset($_SESSION['name'])){
         loginForm();
