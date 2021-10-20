@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+   
+  body {
+    /* margin: 20px auto; */
+    font-family: "arial";
+    font-weight: 300;
+    background: #2c3e50;
+    color: black
+  }
+
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+   
+  input {
+    font-family: "arial";
+  }
+   
+  a {
+    color: #4682b4;
+    text-decoration: none;
+  }
+   
+  #wrapper,
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #eee;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 17px;
+    margin-top: 5rem;
+  }
+   
+  #loginform {
+    padding-top: 18px;
+    text-align: center;
+  }
+   
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+   
+  #chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 300px;
+    width: 530px;
+    overflow: auto;
+    border-radius: 14px;
+  }
+   
+  #usermsg {
+    flex: 1;
+    border-radius: 10px;
+    border: none;
+  }
+   
+  #name {
+    border-radius: 10px;
+    border: none;
+    padding: 2px 8px;
+  }
+   
+  #submitmsg,
+  #enter{
+    background: #317f43;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 14px;
+  }
+  
+  #submitmsg:hover, #enter:hover{
+    cursor: pointer;
+    background-color: #276535;
+    transition: 0.5s; 
+  }
+
+  #enter:hover{
+    cursor: pointer;
+  }
+
+  .error {
+    color: #cc0000;
+  }
+   
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+   
+  #menu p.welcome {
+    flex: 1;
+  }
+   
+  a#exit {
+    color: white;
+    background: #cc0000;
+    padding: 4px 8px;
+    border-radius: 14px;
+    font-weight: bold;
+  }
+
+  a#exit:hover{
+    background-color: #7b0000;
+    transition: 0.3s;
+  }
+
+  .msgln {
+    margin: 0 0 5px 0;
+  }
+   
+  .msgln span.left-info {
+    color: #cc0000;
+  }
+   
+  .msgln span.chat-time {
+    color: #2C3E50;
+    font-size: 60%;
+    vertical-align: super;
+  }
+   
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    font-weight: bold;
+    padding: 2px 4px;
+    font-size: 90%;
+    margin: 0 5px 0 0;
+  }
+
+  /* header */
+  .main-navigation {
+    text-align: center;
+    z-index: 1;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #47373a;
+    }
+    
+    ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #47373a;
+    }
+    
+    /* This hides the dropdowns */
+    
+    
+    li ul { display: none; }
+    
+    ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    }
+    
+    ul li a:hover { background: #302628; }
+    
+    /* Display the dropdown */
+    
+    
+    li:hover > ul {
+    display: block;
+    position: absolute;
+    }
+    
+    li:hover li { float: none; }
+    
+    li:hover a { background: #302628; }
+    
+    li:hover li a:hover { background: #47373a; }
+    
+    .main-navigation li ul li { 
+      border-top: 0; 
+        z-index: 1;
+  }
+    
+    /* Displays second level dropdowns to the right of the first level dropdown */
+    
+    
+    ul ul ul {
+    left: 100%;
+    top: 0;
+    }
+    
+    /* Simple clearfix */
+    
+    
+    
+    ul:before,
+    ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    }
+    
+    ul:after { clear: both; }
+  

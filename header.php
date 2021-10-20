@@ -121,6 +121,6 @@
         </li>
         </ul>
     </li>
-    <li class="float-right"><a href="<?php echo $base_url ?>/chat.php">Chatten</a></li>
+    <li class="float-right"><a href="<?php echo $base_url ?>/chat/index.php">Chatten</a></li>
     </ul>
 </header>
