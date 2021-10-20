@@ -140,6 +140,10 @@ span {
     font-weight: 600;
 }
 
+.color-red{
+	color: var(--red);
+}
+
 /* Nieuwe header/navbar */
 
 .main-navigation {

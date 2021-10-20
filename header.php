@@ -79,6 +79,7 @@
         <li><a href="<?php echo $base_url ?>/music/bluemusic.php">Blauw</a></li>
         <li><a href="<?php echo $base_url ?>/music/orangemusic.php">Oranje</a></li>
         <li><a href="<?php echo $base_url ?>/music/redmusic.php">Rood</a></li>
+        <li><a href="<?php echo $base_url ?>/music/greenmusic.php">Groen</a></li>
     </ul>
   </li>
   <li><a href="">Informatie</a>
