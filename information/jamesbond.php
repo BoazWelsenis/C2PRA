@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="jamesbond.php"><?php echo $base_url; ?>/information/jamesbond.php</a>
+        <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Information</a>  > <a href="jamesbond.php" class="link-substructure">James Bond</a> 
         <div class="wrapper">
         <h1>Lijst van James Bond films met Roger Moore</h1>
             <ul>

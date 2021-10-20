@@ -11,7 +11,7 @@
     require_once('../header.php');
     ?>
 <body class="orange-bg">
-<a class="link-substructure" href="orangemusic.php"><?php echo $base_url; ?>/music/orangemusic.php</a>
+<a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Songteksten</a>  > <a href="orangemusic.php" class="link-substructure">Oranje</a> 
     <div class="wrapper">
         <div class="layout-pages">
             <div class="mybaby">

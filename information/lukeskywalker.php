@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="lukeskywalker.php"><?php echo $base_url; ?>/information/lukeskywalker.php</a>
+        <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Information</a>  > <a href="lukeskywalker.php" class="link-substructure">Luke Skywalker</a> 
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Luke Skywalker</h1>

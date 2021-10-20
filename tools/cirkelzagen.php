@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="cirkelzagen.php"><?php echo $base_url; ?>/tools/cirkelzagen.php</a>
+        <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Gereedschappen</a> > <a href="#" class="link-substructure"> Zagen</a>  > <a href="cirkelzagen.php" class="link-substructure">Cirkelzagen</a> 
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Cirkelzagen</h1>

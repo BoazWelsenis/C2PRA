@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="kettingzagen.php"><?php echo $base_url; ?>/tools/kettingzagen.php</a>
+    <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Gereedschappen</a> > <a href="#" class="link-substructure"> Zagen</a>  > <a href="kettingzagen.php" class="link-substructure">Kettingzagen</a> 
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Kettingzagen</h1>

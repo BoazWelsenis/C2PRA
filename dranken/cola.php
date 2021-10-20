@@ -13,7 +13,7 @@
     ?>
 
     <main>
-        <a class="link-substructure" href="cola.php"><?php echo $base_url; ?>/dranken/cola.php</a>
+    <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Dranken</a> > <a href="#" class="link-substructure"> Frisdranken</a>  > <a href="cola.php" class="link-substructure">Cola</a> 
         <div class="wrapper">
             <div class="layout-pages">
                 <div class="cola">
