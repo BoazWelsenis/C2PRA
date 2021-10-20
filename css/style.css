@@ -144,6 +144,14 @@ span {
 	color: var(--red);
 }
 
+.float-right{
+	float: right;
+}
+
+.font-size-18{
+	font-size: 18px;
+}
+
 /* Nieuwe header/navbar */
 
 .main-navigation {
