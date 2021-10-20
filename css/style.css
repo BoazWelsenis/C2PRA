@@ -60,6 +60,7 @@ span {
 
 .datum-tijd{
 	margin-top: 1rem;
+	margin-bottom: 3rem;
 	font-size: 20px;
 }
 
@@ -289,4 +290,7 @@ ul {
 .wrapper >h1{
 	margin-top: 100px;
 	margin-bottom: 25px;
+}
+.adres{
+	margin-top: 1rem;
 }
