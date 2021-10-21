@@ -47,13 +47,13 @@ function loginForm(){
     <?php 
         require_once('../header.php');
     ?>
+    <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="index.php" class="link-substructure">Chatten</a>
     <?php
     if(!isset($_SESSION['name'])){
         loginForm();
     }
     else {
     ?>
-        <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="index.php" class="link-substructure">Chatten</a>
         <div id="wrapper">
             <div id="menu">
                 <p class="welcome text-black">Welkom, <b><?php echo ucfirst($_SESSION['name']); ?></b></p>
