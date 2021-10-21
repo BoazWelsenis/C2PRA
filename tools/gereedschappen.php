@@ -17,12 +17,15 @@
         <h1>Pagina's bijbehorend aan gereedschappen</h1>
         
         <div class="layout-links font-size-18">
+            <p><b>Zagen</b></p>
             <a href="<?php echo $base_url; ?>/tools/cirkelzagen.php">Cirkelzagen</a>
             <a href="<?php echo $base_url; ?>/tools/kettingzagen.php">Kettingzagen</a>
             <a href="<?php echo $base_url; ?>/tools/handzagen.php">Handzagen</a>
             <br>
+            <p><b>Schroevendraaiers</b></p>
             <a href="<?php echo $base_url; ?>/tools/schroevendraaiers.php">Schroevendraaiers</a>
             <br>
+            <p><b>Hamers</b></p>
             <a href="<?php echo $base_url; ?>/tools/hamers.php">Hamers</a>
         </div>
     </div>
