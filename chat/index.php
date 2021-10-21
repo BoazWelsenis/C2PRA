@@ -103,7 +103,7 @@ function loginForm(){
                     });
                 }
  
-                setInterval (loadLog, 2500);
+                setInterval (loadLog, 0);
  
                 $("#exit").click(function () {
                     var exit = confirm("Weet je zeker dat je de chat wilt verlaten?");
