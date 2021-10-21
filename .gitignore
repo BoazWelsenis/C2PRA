@@ -1,2 +1,3 @@
-log.html
-conn.php
+chat/log.html
+backend/conn.php
+backend/config.php
