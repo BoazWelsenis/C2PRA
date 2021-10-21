@@ -148,6 +148,18 @@ span {
 	font-size: 18px;
 }
 
+.layout-links{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;	
+}
+
+.layout-links a{
+	color: white;
+	border-bottom: 2px solid lightblue;
+	max-width: 6%;
+}
+
 /* Nieuwe header/navbar */
 
 .main-navigation {

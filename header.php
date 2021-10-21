@@ -74,7 +74,7 @@
     <li><a href="<?php echo $base_url ?>/index.php">Home</a></li>
     <li><a href="<?php echo $base_url ?>/movies/films.php">Films</a></li>
     <li><a href="<?php echo $base_url ?>/books/boeken.php">Boeken</a></li>
-    <li><a href="">Songteksten</a>
+    <li><a href="<?php echo $base_url ?>/music/songteksten.php">Songteksten</a>
         <ul>
             <li><a href="<?php echo $base_url ?>/music/bluemusic.php">Blauw</a></li>
             <li><a href="<?php echo $base_url ?>/music/orangemusic.php">Oranje</a></li>
