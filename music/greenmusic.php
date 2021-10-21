@@ -12,7 +12,7 @@
     require_once('../header.php');
     ?>
 <body class="green-bg">
-<a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Songteksten</a>  > <a href="greenmusic.php" class="link-substructure">Groen</a> 
+<a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="<?php echo $base_url; ?>/music/songteksten.php" class="link-substructure"> Songteksten</a>  > <a href="greenmusic.php" class="link-substructure">Groen</a> 
     <div class="wrapper">
         <div class="layout-pages color-red">
             <div class="mybaby">
