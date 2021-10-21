@@ -40,7 +40,8 @@ function loginForm(){
         <meta charset="utf-8" />
         <title>Chat</title>
         <meta name="description" content="Chat" />
-        <link rel="stylesheet" href="css/chat.css">    
+        <link rel="stylesheet" href="css/chat.css">
+        <link rel="stylesheet" href="../css/style.css">   
     </head>
     <body>
     <?php 
@@ -52,9 +53,10 @@ function loginForm(){
     }
     else {
     ?>
+        <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="index.php" class="link-substructure">Chatten</a>
         <div id="wrapper">
             <div id="menu">
-                <p class="welcome">Welkom, <b><?php echo ucfirst($_SESSION['name']); ?></b></p>
+                <p class="welcome text-black">Welkom, <b><?php echo ucfirst($_SESSION['name']); ?></b></p>
                 <p class="logout"><a id="exit" href="#">Verlaat</a></p>
             </div>
  
