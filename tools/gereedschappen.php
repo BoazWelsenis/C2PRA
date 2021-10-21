@@ -12,7 +12,7 @@
     require_once('../header.php');
     ?>
 <body>
-    <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="songteksten.php" class="link-substructure"> Songteksten</a>
+    <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="gereedschappen.php" class="link-substructure"> Gereedschappen</a>
     <div class="wrapper">
         <h1>Pagina's bijbehorend aan gereedschappen</h1>
         
