@@ -156,7 +156,7 @@ span {
 
 .layout-links a{
 	color: white;
-	border-bottom: 2px solid lightblue;
+	text-decoration: underline;
 	max-width: 6%;
 }
 
