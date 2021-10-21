@@ -106,7 +106,7 @@ function loginForm(){
                 setInterval (loadLog, 2500);
  
                 $("#exit").click(function () {
-                    var exit = confirm("Are you sure you want to end the session?");
+                    var exit = confirm("Weet je zeker dat je de chat wilt verlaten?");
                     if (exit == true) {
                     window.location = "index.php?logout=true";
                     }
