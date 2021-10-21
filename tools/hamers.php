@@ -13,7 +13,7 @@
     ?>
 
     <main>
-    <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="#" class="link-substructure"> Gereedschappen</a>  > <a href="hamers.php" class="link-substructure">Hamers</a> 
+    <a href="<?php echo $base_url; ?>/index.php" class="link-substructure">Home</a> > <a href="gereedschappen.php" class="link-substructure"> Gereedschappen</a>  > <a href="hamers.php" class="link-substructure">Hamers</a> 
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Hamers</h1>
