@@ -91,7 +91,7 @@
             <li><a href="<?php echo $base_url ?>/information/georgecloony.php">George Clooney</a></li>
         </ul>
     </li>
-    <li><a href="">Gereedschappen</a>
+    <li><a href="<?php echo $base_url ?>/tools/gereedschappen.php">Gereedschappen</a>
         <ul>
         <li><a href="">Zagen</a>
             <ul>
