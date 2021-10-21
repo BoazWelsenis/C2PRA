@@ -104,7 +104,7 @@
         </li>
         </ul>
     </li>
-    <li><a href="">Dranken</a>
+    <li><a href="<?php echo $base_url; ?>/dranken/dranken.php">Dranken</a>
         <ul>
         <li><a href="">Warme dranken</a>
             <ul>
