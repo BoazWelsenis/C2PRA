@@ -82,7 +82,7 @@
             <li><a href="<?php echo $base_url ?>/music/greenmusic.php">Groen</a></li>
         </ul>
     </li>
-    <li><a href="">Informatie</a>
+    <li><a href="<?php echo $base_url ?>/information/informatie.php">Informatie</a>
         <ul>
             <li><a href="<?php echo $base_url ?>/information/jamesbond.php">James Bond</a></li>
             <li><a href="<?php echo $base_url ?>/information/darthvader.php">Darth Vader</a></li>
