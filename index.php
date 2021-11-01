@@ -15,10 +15,6 @@
     <main>
         <div class="wrapper">
             <h1 class="title-page">Home</h1>
-            <button class="like__btn">
-                <span id="icon"><i class="far fa-thumbs-up"></i></span>
-                <span id="count">0</span> Like
-            </button>
 
 
             <div class="info-index-page">
