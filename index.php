@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="css/app.js"></script>
     <title>C2 CodeCamp - Home</title>
 </head>
 <body>    
     <?php include_once('header.php'); ?>
 
+
     <main>
         <div class="wrapper">
             <h1 class="title-page">Home</h1>
+            <button class="like__btn">
+                <span id="icon"><i class="far fa-thumbs-up"></i></span>
+                <span id="count">0</span> Like
+            </button>
 
 
             <div class="info-index-page">
