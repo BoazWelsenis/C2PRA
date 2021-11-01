@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/likesystem.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>C2 CodeCamp - Oranje</title>
 </head>
@@ -25,7 +27,13 @@
                         fclose($myfile);
                     ?>
                 </div>
-                <i onclick="myFunction(this)" class="fa fa-thumbs-up" style="font-size: 40px;"></i>
+                <div class="heart-btn">
+                    <div class="content">
+                    <span class="heart"></span>
+                    <span class="text">Like</span>
+                    <span class="numb"></span>
+                    </div>
+                </div>
             </div>
             <div class="muse">
                 <h1>Uprising - Muse</h1>
@@ -36,7 +44,13 @@
                         fclose($myfile);
                     ?>
                 </div>
-                <i onclick="myFunction(this)" class="fa fa-thumbs-up" style="font-size: 40px;"></i>
+                <div class="heart-btn">
+                    <div class="content">
+                    <span class="heart"></span>
+                    <span class="text">Like</span>
+                    <span class="numb"></span>
+                    </div>
+                </div>
             </div>
 
             <div class="muse">
@@ -48,14 +62,25 @@
                         fclose($myfile);
                     ?>
                 </div>
-                <i onclick="myFunction(this)" class="fa fa-thumbs-up" style="font-size: 40px;"></i>
+                <div class="heart-btn">
+                    <div class="content">
+                    <span class="heart"></span>
+                    <span class="text">Like</span>
+                    <span class="numb"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <script>
-    function myFunction(x) {
-  x.classList.toggle("fa-thumbs-down");
-}
+    $(document).ready(function(){
+    $('.content').click(function(){
+        $('.content').toggleClass("heart-active")
+        $('.text').toggleClass("heart-active")
+        $('.numb').toggleClass("heart-active")
+        $('.heart').toggleClass("heart-active")
+    });
+    });
 </script>
     
 </body>
