@@ -29,8 +29,7 @@
                 </div>
                 <div class="heart-btn">
                     <div class="content">
-                    <span class="heart"></span>
-                    <span class="text">Like</span>
+                    <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
                     <span class="numb"></span>
                     </div>
                 </div>
@@ -41,7 +40,6 @@
                         $('.content').toggleClass("heart-active")
                         $('.text').toggleClass("heart-active")
                         $('.numb').toggleClass("heart-active")
-                        $('.heart').toggleClass("heart-active")
                     });
                     });
                 </script>
