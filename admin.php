@@ -20,11 +20,10 @@ if(!isset($_SESSION['user_id']))
 </head>
 <body>
     <?php include_once('header.php'); ?>
-
     <div class="wrapper">
         <h1 class="title-page">Admin</h1>
-        
-        <!-- HIER MOET VERDERE CONTENT KOMEN TE STAAN -->
+        <a href="edit-songtekst.php">Songteksten aannpassen</a>
+        <a href="add-boek.php">Boek toevoegen</a>
     </div>
 </body>
 </html>
