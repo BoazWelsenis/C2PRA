@@ -30,7 +30,7 @@ if(!isset($_SESSION['user_id']))
 
         <div class="mt-2rem fontsize-18">
             <h2>Boeken Toevoegen</h2>
-            <a class="admin-link" href="add-boek.php">Boek Toevoegen > </a>
+            <a class="admin-link" href="add-book.php">Boek Toevoegen > </a>
         </div>
     </div>
 </body>
