@@ -22,7 +22,7 @@ if(!isset($_SESSION['user_id']))
     <?php include_once('header.php'); ?>
     <div class="wrapper">
         <h1 class="title-page">Admin</h1>
-
+        
         <div class="fontsize-18">
             <h2>Songteksten Toevoegen</h2>
             <a class="admin-link" href="add-songtekst.php">Songtekst Toevoegen ></a>
