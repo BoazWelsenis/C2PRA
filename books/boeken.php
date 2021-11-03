@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/likesystem.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>C2 CodeCamp - Boeken</title>
@@ -92,9 +94,12 @@
                                 <div class="price">
                                     <p>&euro; 7,39</p>
                                 </div>
-                                <div class="like">
-                                    <i onclick="myFunction(this)" class="fa fa-thumbs-up" style="font-size: 40px;"></i>
+                            <div class="heart-btn">
+                                <div class="content">
+                                <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
+                                <span class="numb"></span>
                                 </div>
+                            </div>
                             </div>
                             <div class="buy">
                                 <a href="https://www.bol.com/nl/nl/p/they-both-die-at-the-end/9200000074738274/?bltgh=vn5Luyksar8p7fnoSl5FvQ.4_36.40.ProductTitle" target="_blank">Kopen</a>
@@ -126,15 +131,19 @@
                     </div>
                 </div>
             </div>
-
-
             </div>
         </div>
     </main>
+
+    <script>
+        $(document).ready(function(){
+        $('.content').click(function(){
+            $('.content').toggleClass("heart-active")
+            $('.text').toggleClass("heart-active")
+            $('.numb').toggleClass("heart-active")
+        });
+        });
+    </script>
+
 </body>
-<script>
-    function myFunction(x) {
-  x.classList.toggle("fa-thumbs-down");
-}
-</script>
 </html>
