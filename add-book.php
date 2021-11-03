@@ -12,27 +12,27 @@
     <h2>Boeken toevoegen</h2>
     <form action="backend/boekenController.php" method="POST">
         <div class="form-group">
-            <label for="Title">Titel</label>
-            <input type="text" name="title" id="title">
+            <label for="titel">Titel</label>
+            <input type="text" name="titel" id="titel">
         </div>
         <div class="form-group">
-            <label for="Auteur">Auteur</label>
+            <label for="auteur">Auteur</label>
             <input type="text" name="auteur" id="auteur">
         </div>
         <div class="form-group">
-            <label for="Bladzijdes">Bladzijdes</label>
+            <label for="bladzijdes">Bladzijdes</label>
             <input type="number" name="bladzijdes" id="bladzijdes">
         </div>
         <div class="form-group">
-            <label for="Beschrijving">Beschrijving</label>
+            <label for="beschrijving">Beschrijving</label>
             <input type="text" name="beschrijving" id="beschrijving">
         </div>
         <div class="form-group">
-            <label for="buylink">kopen</label>
+            <label for="buylink">Koop link</label>
             <input type="text" name="buylink" id="buylink">
         </div>
         <div class="form-group">
-            <label for="Prijs">Prijs</label>
+            <label for="prijs">Prijs</label>
             <input type="number" name="prijs" id="prijs">
         </div>
         <input type="submit" value="Toevoegen">
