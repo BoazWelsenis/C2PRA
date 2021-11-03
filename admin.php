@@ -23,7 +23,7 @@ if(!isset($_SESSION['user_id']))
     <div class="wrapper">
         <h1 class="title-page">Admin</h1>
         <a href="edit-songtekst.php">Songteksten aannpassen</a>
-        <a href="add-boek.php">Boek toevoegen</a>
+        <a href="add-book.php">Boek toevoegen</a>
     </div>
 </body>
 </html>
