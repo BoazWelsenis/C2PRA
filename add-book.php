@@ -29,10 +29,6 @@
             <input type="text" name="beschrijving" id="beschrijving">
         </div>
         <div class="form-group">
-            <label for="buylink">Koop link</label>
-            <input type="text" name="buylink" id="buylink">
-        </div>
-        <div class="form-group">
             <label for="prijs">Prijs</label>
             <input type="number" name="prijs" id="prijs">
         </div>
