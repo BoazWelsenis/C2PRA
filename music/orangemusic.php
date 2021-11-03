@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/likesystem.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/logo/logo-nobg.png">
     <title>C2 CodeCamp - Oranje</title>
 </head>
     <?php 
