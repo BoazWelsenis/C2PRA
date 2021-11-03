@@ -23,7 +23,7 @@
             <label for="songtekst">Songtekst</label>
             <input type="text" name="songtekst" id="songtekst">
         </div>
-        <input type="submit" value="toevoegen">
+        <input type="submit" value="Toevoegen">
     </form>
 </body>
 </html>
