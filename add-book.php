@@ -9,6 +9,7 @@
 </head>
 <body>
     <?php include_once('header.php') ?>
+    <div class="form-style">
     <h2>Boeken toevoegen</h2>
     <form action="backend/boekenController.php" method="POST">
         <div class="form-group">
@@ -33,5 +34,6 @@
         </div>
         <input type="submit" value="Toevoegen">
     </form>
+</div>
 </body>
 </html>
