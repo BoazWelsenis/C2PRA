@@ -36,6 +36,10 @@
             <label for="prijs">Prijs</label>
             <input type="number" name="prijs" id="prijs">
         </div>
+        <div class="form-group">
+            <label for="buylink">Link naar product</label>
+            <input type="text" name="buylink" id="buylink">
+        </div>
         <input type="submit" value="Toevoegen">
     </form>
 </div>
