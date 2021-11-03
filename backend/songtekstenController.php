@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require_once '/config.php';
+    require_once 'config.php';
 
     if(!isset($_SESSION['user_id']))
     {
@@ -13,7 +13,7 @@
     $songtekst = $_POST['songtekst'];
 
     require_once 'conn.php';
-    $query = "INSERT INTO songteksten (titel, artiest, songtekst) VALUES(:titel, :auteur, :songtekst)";
+    $query = "INSERT INTO songteksten (titel, artiest, songtekst) VALUES(:titel, :artiest, :songtekst)";
     $statement = $conn->prepare($query);
     $statement->execute([
         ":titel" => $titel,
@@ -21,6 +21,6 @@
         ":songtekst" => $songtekst
     ]);
 
-    header("Location: $base_url/books/boeken.php");
+    header("Location: $base_url/music/songteksten.php");
     exit;
 ?>

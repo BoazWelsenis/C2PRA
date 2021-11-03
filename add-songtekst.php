@@ -12,12 +12,12 @@
     <h2>Songtekst toevoegen</h2>
     <form action="backend/songtekstenController.php" method="POST">
         <div class="form-group">
-            <label for="Title">Titel</label>
-            <input type="text" name="title" id="title">
+            <label for="titel">Titel</label>
+            <input type="text" name="titel" id="titel">
         </div>
         <div class="form-group">
-            <label for="Artist">Artiest</label>
-            <input type="text" name="artist" id="artist">
+            <label for="artiest">Artiest</label>
+            <input type="text" name="artiest" id="artiest">
         </div>
         <div class="form-group">
             <label for="songtekst">Songtekst</label>
