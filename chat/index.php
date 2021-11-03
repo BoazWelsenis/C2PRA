@@ -41,7 +41,8 @@ function loginForm(){
         <title>C2 CodeCamp - Chat</title>
         <meta name="description" content="Chat" />
         <link rel="stylesheet" href="css/chat.css">
-        <link rel="stylesheet" href="../css/style.css">   
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../img/logo/logo-nobg.png">   
     </head>
     <body>
     <?php 
