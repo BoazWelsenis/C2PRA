@@ -122,6 +122,11 @@
             </ul>
         </li>
         <li><a href="<?php echo $base_url ?>/chat/index.php">Chatten</a></li>
+        <?php if(isset($_SESSION['user_id'])): ?>
+                    <li><a href="<?php echo $base_url; ?>/logout.php">Uitloggen</a></li>
+                <?php else: ?>
+                    <li><a href="<?php echo $base_url; ?>/login.php">Inloggen</a></li>
+                <?php endif; ?>
         </ul>
 
 </header>
