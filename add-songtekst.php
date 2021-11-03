@@ -18,6 +18,10 @@
             <label for="Artist">Artiest</label>
             <input type="text" name="artist" id="artist">
         </div>
+        <div class="form-group">
+            <label for="songtekst">Songtekst</label>
+            <input type="text" name="songtekst" id="songtekst">
+        </div>
         <input type="submit" value="toevoegen">
     </form>
 </body>
