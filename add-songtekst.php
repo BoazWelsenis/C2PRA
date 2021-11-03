@@ -9,6 +9,7 @@
 </head>
 <body>
     <?php include_once('header.php') ?>
+    <div class="form-style">
     <h2>Songtekst toevoegen</h2>
     <form action="backend/songtekstenController.php" method="POST">
         <div class="form-group">
@@ -25,5 +26,6 @@
         </div>
         <input type="submit" value="Toevoegen">
     </form>
+</div>  
 </body>
 </html>
