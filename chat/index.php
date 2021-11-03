@@ -38,7 +38,7 @@ function loginForm(){
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Chat</title>
+        <title>C2 CodeCamp - Chat</title>
         <meta name="description" content="Chat" />
         <link rel="stylesheet" href="css/chat.css">
         <link rel="stylesheet" href="../css/style.css">   
