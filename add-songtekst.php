@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <?php include_once('header.php') ?>
     <h2>Songtekst toevoegen</h2>
     <form action="backend/songtekstenController.php" method="POST">
         <div class="form-group">
