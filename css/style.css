@@ -112,6 +112,14 @@ span {
 	font-size: 18px;
 }
 
+.mt-2rem{
+	margin-top: 1rem;
+}
+
+.admin-link{
+	color: #0f9cef;
+}
+
 .blue-bg{
 	background-color: var(--blue);
 }
