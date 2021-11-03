@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php 
-        require_once('header.php');
+        include_once('header.php');
     ?>
     <div class="wrapper">
     <form action="backend/loginController.php" method="POST">
