@@ -47,13 +47,17 @@ span {
 .info-index-page{
 	color: white;
 }
-
+.contact-info{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
 .contact-info{
 	margin-top: 2rem;
 	font-size: 20px;
 }
 
-.mail-link{
+.mail-link, .tel-link{
 	color: rgb(148, 143, 143);
 	font-weight: bold;
 }
@@ -64,6 +68,18 @@ span {
 	font-size: 20px;
 }
 
+.index-bottom-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.plattegrond-omgeving{
+	width: 50%;
+}
+.index-logo img{
+	width: 15rem;
+	filter: invert(100%);
+}
 .img-movies{
     display: flex;
     text-align: center;
@@ -71,7 +87,7 @@ span {
 }
 
 .img-movies img{
-	border-radius: 20px;
+	border-radius: 19px;
 }
 
 .film-item img {
@@ -235,6 +251,18 @@ ul {
   
   ul:after { clear: both; }
 
+.logo a{
+	padding: 0;
+	display: inline-block;
+}
+
+.logo img{
+	filter: invert(100%);
+	margin: 0 .8rem;
+	width: 3.3rem;
+}
+
+
 /* Styling van oude header/navbar */
 
 /* .navbar {
@@ -320,4 +348,78 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 i:hover{
 	color: lightgrey;
 	cursor: pointer;
+}
+
+/* boeken */
+.book-item{
+	background: #47373a;
+	border-radius: 20px;
+	overflow: hidden;
+	font-size: 15px;
+	padding: 0px 15px;
+	color: white;
+}
+.cover img{
+	width: 10rem;
+}
+.cover{
+	text-align: center;
+	margin: 1rem 0rem;
+	min-height: 15rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.book-item{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+}
+.title{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.title{
+	font-weight: 700;
+}
+.author{
+	font-style: italic;
+	margin-bottom: 5px;
+}
+.buy{
+	margin: 1.5rem 0rem 1rem 0rem;
+}
+.buy a{
+	background: white;
+	border-radius: 115px;
+	padding: 0.8rem 5rem;
+	color: black
+}
+.buy a:hover{
+	transition: .3s;
+}
+
+.grid-book{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-flow: row dense;
+	grid-gap: 1rem;
+}
+.buy{
+	text-align: center;
+}
+.price{
+	font-weight: bold;
+	font-size: 18px;
+}
+.price-row{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	vertical-align: center;
+	align-items: center	;
+}
+.description{
+	min-height: 5rem;
 }
