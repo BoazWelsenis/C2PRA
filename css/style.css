@@ -423,3 +423,8 @@ i:hover{
 .description{
 	min-height: 5rem;
 }
+
+.author{
+	display: flex;
+	justify-content: space-between;
+}

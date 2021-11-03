@@ -38,6 +38,7 @@
                             <div class="title">Asterix 39. Asterix en de Griffioen</p></div>
                             <div class="author">
                                 <p>Didier Conrad</p>
+                                <p>48</p>
                             </div>
                             <div class="description">
                                 <p>Asterix, Obelix en Idefix zijn terug voor een 39e avontuur. Vergezeld door de beroemdste van de druïden..</p>
@@ -65,6 +66,7 @@
                             <div class="title">Wen er maar aan</p></div>
                             <div class="author">
                                 <p>Maike Meijer</p>
+                                <p>192</p>
                             </div>
                             <div class="description">
                                 <p>In haar nietsverhullende dagboek registreert de werkloze actrice M. het kleine en grote verval in haar leven.    </p>
@@ -92,6 +94,7 @@
                             <div class="title">They Both Die at the End</p></div>
                             <div class="author">
                                 <p>Adam Silvera</p>
+                                <p>384</p>
                             </div>
                             <div class="description">
                                 <p>On September 5th, a little after midnight, Death-Cast calls Mateo Torrez and Rufus Emeterio to give them some bad news: they're going to die today. </p>
@@ -120,6 +123,7 @@
                     <div class="title">Je bent zoals je denkt</p></div>
                     <div class="author">
                         <p>Michael Pilarczyk</p>
+                        <p>176</p>
                     </div>
                     <div class="description">
                         <p>Je Bent Zoals Je Denkt legt uit hoe je gedachten je dagelijkse realiteit creëren. Zoals je denkt, zo zal je zijn en zo zal je leven zich vormen.</p>
