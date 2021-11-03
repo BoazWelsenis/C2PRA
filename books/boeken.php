@@ -46,8 +46,11 @@
                                 <div class="price">
                                     <p>&euro; 6,95</p>
                                 </div>
-                                <div class="like">
-                                    <i onclick="myFunction(this)" class="fa fa-thumbs-up" style="font-size: 40px;"></i>
+                                <div class="heart-btn">
+                                    <div class="content">
+                                        <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
+                                        <span class="numb"></span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="buy">
@@ -70,8 +73,11 @@
                                 <div class="price">
                                     <p>&euro; 17,99</p>
                                 </div>
-                                <div class="like">
-                                    <i onclick="myFunction(this)" class="fa fa-thumbs-up" style="font-size: 40px;"></i>
+                                <div class="heart-btn">
+                                    <div class="content">
+                                        <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
+                                        <span class="numb"></span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="buy">
@@ -96,8 +102,8 @@
                                 </div>
                             <div class="heart-btn">
                                 <div class="content">
-                                <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
-                                <span class="numb"></span>
+                                    <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
+                                    <span class="numb"></span>
                                 </div>
                             </div>
                             </div>
@@ -122,8 +128,11 @@
                         <div class="price">
                             <p>&euro; 7,39</p>
                         </div>
-                        <div class="like">
-                            <i onclick="myFunction(this)" class="fa fa-thumbs-up" style="font-size: 40px;"></i>
+                        <div class="heart-btn">
+                            <div class="content">
+                                <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
+                                <span class="numb"></span>
+                            </div>
                         </div>
                     </div>
                     <div class="buy">
