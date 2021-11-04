@@ -497,3 +497,11 @@ input[type=submit]:hover {
 	background-color: #f2f2f2;
 	padding: 20px;
   }
+
+  .pt-1rem{
+	  padding-top: 1rem;
+  }
+
+  .pb-1rem{
+	  padding-bottom: 1rem;
+  }

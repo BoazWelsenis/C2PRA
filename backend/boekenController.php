@@ -15,6 +15,7 @@
     $prijs = $_POST['prijs'];
     $buylink = $_POST['buylink'];
 
+    //Query uitvoeren
     require_once 'conn.php';
     $query = "INSERT INTO boeken (titel, auteur, bladzijdes, beschrijving, prijs, buylink) VALUES(:titel, :auteur, :bladzijdes, :beschrijving, :prijs, :buylink)";
     $statement = $conn->prepare($query);

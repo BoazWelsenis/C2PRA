@@ -127,10 +127,10 @@
 
                 <div class="grid-book">
                     <?php foreach($boeken as $boek): ?>
-                        <div class="book-item">
-                        <div class="cover">
-                            <img src="<?php echo $boek['image']; ?>" alt="bookCover"></a>
-                        </div>
+                        <div class="book-item pt-1rem pb-1rem">
+                        <!-- <div class="cover">
+                            <img src="<?php echo $boek['img_file']; ?>" alt="bookCover"></a>
+                        </div> -->
                         <div class="title"><?php echo ucfirst($boek['titel']); ?></p></div>
                         <div class="author">
                             <p><?php echo ucfirst($boek['auteur']); ?></p>
