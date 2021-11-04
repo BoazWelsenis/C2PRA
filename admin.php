@@ -17,6 +17,8 @@ if(!isset($_SESSION['user_id']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Admin</title>
+    <link rel="icon" href="img/logo/logo-nobg.png">
+
 </head>
 <body>
     <?php include_once('header.php'); ?>
