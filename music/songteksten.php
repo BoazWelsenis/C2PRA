@@ -23,6 +23,21 @@
             <a href="<?php echo $base_url; ?>/music/redmusic.php">Rood</a>
             <a href="<?php echo $base_url; ?>/music/greenmusic.php">Groen</a>
         </div>
+        <h1>Toegevoegd door admin: </h1>
+        <?php 
+        require_once('../backend/conn.php');
+        $query = 'SELECT * FROM songteksten';
+        $statement = $conn->prepare($query);
+        $statement->execute();
+        $songteksten = $statement->fetchAll(PDO::FETCH_ASSOC);
+        ?>
+
+    <div class="fontsize-18">
+        <?php foreach($songteksten as $songtekst): ?>
+            <h2><?php echo $songtekst['titel'], " - ", $songtekst['artiest']?></h2>
+            <p><?php echo $songtekst['songtekst']?></p>
+        <?php endforeach ?>
+        </div>
     </div>
 </body>
 </html>
