@@ -23,6 +23,7 @@
             <a href="<?php echo $base_url; ?>/music/redmusic.php">Rood</a>
             <a href="<?php echo $base_url; ?>/music/greenmusic.php">Groen</a>
         </div>
+        <h1>Toegevoegd door admin: </h1>
         <?php 
         require_once('../backend/conn.php');
         $query = 'SELECT * FROM songteksten';
