@@ -116,6 +116,48 @@
                             </div>
                         </div>
                 </div>
+
+                <?php require_once '../backend/conn.php'; ?>
+                <?php
+                    $query = "SELECT * FROM boeken";
+                    $statement = $conn->prepare($query);
+                    $statement->execute();
+                    $boeken = $statement->fetchAll(PDO::FETCH_ASSOC);
+                ?>
+
+                <div class="grid-book">
+                    <?php foreach($boeken as $boek): ?>
+                        <div class="book-item">
+                        <div class="cover">
+                            <img src="<?php echo $boek['image']; ?>" alt="bookCover"></a>
+                        </div>
+                        <div class="title"><?php echo ucfirst($boek['titel']); ?></p></div>
+                        <div class="author">
+                            <p><?php echo ucfirst($boek['auteur']); ?></p>
+                            <p><?php echo ucfirst($boek['bladzijdes']); ?></p>
+                        </div>
+                        <div class="description">
+                            <p><?php echo ucfirst($boek['beschrijving']); ?></p>
+                        </div>
+                        <div class="price-row">
+                            <div class="price">
+                                <p>&euro;<?php echo ucfirst($boek['prijs']); ?></p>
+                            </div>
+                            <div class="heart-btn">
+                                <div class="content">
+                                    <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
+                                    <span class="numb"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <a href="<?php echo ucfirst($boek['buylink']); ?>" target="_blank">Kopen</a>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+
+
 <!-- item 4-->
                 <div class="book-item">
                     <div class="cover">
