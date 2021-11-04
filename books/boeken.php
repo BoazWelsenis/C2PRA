@@ -125,6 +125,36 @@
                     $boeken = $statement->fetchAll(PDO::FETCH_ASSOC);
                 ?>
 
+<!-- item 4-->
+                <div class="book-item">
+                    <div class="cover">
+                        <a href="https://www.bol.com/nl/nl/p/invictus-library-je-bent-zoals-je-denkt/9300000042831937/?bltgh=i2MVdvhzvfJAagm-BP9EbQ.2_36.45.ProductImage" target="_blank"><img src="https://media.s-bol.com/YQ1DzNDkWrw0/ElBvGZW/864x1200.jpg" alt="bookCover"></a>
+                    </div>
+                    <div class="title">Je bent zoals je denkt</p></div>
+                    <div class="author">
+                        <p>Michael Pilarczyk</p>
+                        <p>176</p>
+                    </div>
+                    <div class="description">
+                        <p>Je Bent Zoals Je Denkt legt uit hoe je gedachten je dagelijkse realiteit creëren. Zoals je denkt, zo zal je zijn en zo zal je leven zich vormen.</p>
+                    </div>
+                    <div class="price-row">
+                        <div class="price">
+                            <p>&euro; 7,39</p>
+                        </div>
+                        <div class="heart-btn">
+                            <div class="content">
+                                <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
+                                <span class="numb"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buy">
+                        <a href="https://www.bol.com/nl/nl/p/invictus-library-je-bent-zoals-je-denkt/9300000042831937/?bltgh=i2MVdvhzvfJAagm-BP9EbQ.2_36.45.ProductImage" target="_blank">Kopen</a>
+                    </div>
+                </div>
+
+                <h1>Toegevoegd door admin:</h1>
                 <div class="grid-book">
                     <?php foreach($boeken as $boek): ?>
                         <div class="book-item pt-1rem pb-1rem">
@@ -155,36 +185,6 @@
                         </div>
                     </div>
                     <?php endforeach; ?>
-                </div>
-
-
-<!-- item 4-->
-                <div class="book-item">
-                    <div class="cover">
-                        <a href="https://www.bol.com/nl/nl/p/invictus-library-je-bent-zoals-je-denkt/9300000042831937/?bltgh=i2MVdvhzvfJAagm-BP9EbQ.2_36.45.ProductImage" target="_blank"><img src="https://media.s-bol.com/YQ1DzNDkWrw0/ElBvGZW/864x1200.jpg" alt="bookCover"></a>
-                    </div>
-                    <div class="title">Je bent zoals je denkt</p></div>
-                    <div class="author">
-                        <p>Michael Pilarczyk</p>
-                        <p>176</p>
-                    </div>
-                    <div class="description">
-                        <p>Je Bent Zoals Je Denkt legt uit hoe je gedachten je dagelijkse realiteit creëren. Zoals je denkt, zo zal je zijn en zo zal je leven zich vormen.</p>
-                    </div>
-                    <div class="price-row">
-                        <div class="price">
-                            <p>&euro; 7,39</p>
-                        </div>
-                        <div class="heart-btn">
-                            <div class="content">
-                                <span class="text"><!-- Hier moet een echo komen en dynamisch worden gemaakt met de database -->Like</span>
-                                <span class="numb"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="buy">
-                        <a href="https://www.bol.com/nl/nl/p/invictus-library-je-bent-zoals-je-denkt/9300000042831937/?bltgh=i2MVdvhzvfJAagm-BP9EbQ.2_36.45.ProductImage" target="_blank">Kopen</a>
-                    </div>
                 </div>
             </div>
             </div>
