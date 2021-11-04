@@ -32,12 +32,12 @@
         $songteksten = $statement->fetchAll(PDO::FETCH_ASSOC);
         ?>
 
-    <div class="fontsize-18">
         <?php foreach($songteksten as $songtekst): ?>
-            <h2><?php echo $songtekst['titel'], " - ", $songtekst['artiest']?></h2>
-            <p><?php echo $songtekst['songtekst']?></p>
+            <div class="fontsize-18 pb-1rem">
+                <h2><?php echo $songtekst['titel'], " - ", $songtekst['artiest']?></h2>
+                <p><?php echo $songtekst['songtekst']?></p>
+            </div>
         <?php endforeach ?>
-        </div>
     </div>
 </body>
 </html>
