@@ -32,7 +32,7 @@
 
                     <div class="grid-book">
 <!--        grid-item 1 -->
-                        <div class="book-item">
+                        <div class="book-item pb-1rem">
                             <div class="cover">
                                 <a href="https://www.bol.com/nl/nl/p/asterix-39-asterix-en-de-griffioen/9300000035749012/?bltgh=mHDt77xtlOp4jyNTo8dGfw.2_36.39.ProductImage" target="_blank"><img src="https://media.s-bol.com/x7orEN8lMooP/MQ5wr0Q/910x1200.jpg" alt="bookCover"></a>
                             </div>
@@ -60,7 +60,7 @@
                             </div>
                     </div>
 <!--         grid item 2               -->
-                        <div class="book-item">
+                        <div class="book-item pb-1rem">
                             <div class="cover">
                                 <a href="https://www.bol.com/nl/nl/p/wen-er-maar-aan/9300000005322320/?bltgh=mHDt77xtlOp4jyNTo8dGfw.2_36.43.ProductTitle" target="_blank"><img src="https://media.s-bol.com/7pnqQ90QVJ0r/798x1200.jpg" alt="bookCover"></a>
                             </div>
@@ -88,7 +88,7 @@
                             </div>
                         </div>
 <!-- grid item 3 -->
-                        <div class="book-item">
+                        <div class="book-item pb-1rem">
                             <div class="cover">
                                 <a href="https://www.bol.com/nl/nl/p/they-both-die-at-the-end/9200000074738274/?bltgh=vn5Luyksar8p7fnoSl5FvQ.4_36.40.ProductTitle" target="_blank"><img src="https://media.s-bol.com/KYZl6MZmB3Al/Q1pOZoZ/550x838.jpg" alt="bookCover"></a>
                             </div>
@@ -126,7 +126,7 @@
                 ?>
 
 <!-- item 4-->
-                <div class="book-item">
+                <div class="book-item pb-1rem">
                     <div class="cover">
                         <a href="https://www.bol.com/nl/nl/p/invictus-library-je-bent-zoals-je-denkt/9300000042831937/?bltgh=i2MVdvhzvfJAagm-BP9EbQ.2_36.45.ProductImage" target="_blank"><img src="https://media.s-bol.com/YQ1DzNDkWrw0/ElBvGZW/864x1200.jpg" alt="bookCover"></a>
                     </div>
@@ -155,7 +155,7 @@
                 </div>
 
                 <h1>Toegevoegd door admin:</h1>
-                <div class="grid-book">
+                <div class="grid-book pb-1rem">
                     <?php foreach($boeken as $boek): ?>
                         <div class="book-item pt-1rem pb-1rem">
                         <!-- <div class="cover">

@@ -381,7 +381,8 @@ i:hover{
 .book-item{
 	display: flex;
 	flex-direction: column;
-	/*justify-content: space-between;*/
+	justify-content: flex-end;
+	/* justify-content: space-between; */
 }
 .title{
 	font-size: 20px;
