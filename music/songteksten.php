@@ -34,8 +34,8 @@
 
         <?php foreach($songteksten as $songtekst): ?>
             <div class="fontsize-18 pb-1rem">
-                <h2><?php echo $songtekst['titel'], " - ", $songtekst['artiest']?></h2>
-                <p><?php echo $songtekst['songtekst']?></p>
+                <h2><?php echo ucfirst($songtekst['titel']), " - ", ucfirst($songtekst['artiest'])?></h2>
+                <p><?php echo ucfirst($songtekst['songtekst'])?></p>
             </div>
         <?php endforeach ?>
     </div>
