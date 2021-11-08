@@ -506,3 +506,29 @@ input[type=submit]:hover {
   .pb-1rem{
 	  padding-bottom: 1rem;
   }
+
+  footer{
+	  margin-top: 200px;
+	  background: #47373a;
+
+  }
+.full-footer{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.full-footer img{
+	filter: invert(1);
+	width: 15%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contact-info-footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contact-info-footer p, .contact-info-footer a{
+	font-size: 18px;
+}

@@ -27,6 +27,6 @@
         </div>
         <input type="submit" value="Toevoegen">
     </form>
-</div>  
+</div>
 </body>
 </html>
