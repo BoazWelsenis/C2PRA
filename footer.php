@@ -22,6 +22,7 @@
                     <p>John Doe</p>
                     <p><a class="tel-link" href="tel:0612345678">06-12345678</a></p>
                     <a class="mail-link" href="mailto:john.doe@hotmail.com">john.doe@hotmail.com</a>
+                    <p>Adres: Koestraat 1 Den Bosch</p>
                 </div>
                 <div>
                 </div>
