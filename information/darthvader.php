@@ -18,7 +18,6 @@
         <div class="wrapper">
             <div class="layout-pages">
                 <h1>Darth Vader</h1>
-
                 <div class="fontsize-18">
                     <?php
                         $myfile = fopen("../information-textfiles/darthvader.txt", "r") or die("Unable to open file!");
@@ -26,6 +25,7 @@
                         fclose($myfile);
                     ?>
                 </div>
+                <img src="../img/Informatie_foto's/darth_vader.png" alt="darth_vader" width="300rem" height="auto">
             </div>
         </div>
     </main>
