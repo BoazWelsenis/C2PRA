@@ -26,6 +26,7 @@
                         fclose($myfile);
                     ?>
                 </div>
+                <img src="../img/Informatie_foto's/GeorgeClooney.jpg" alt="George_clooney" width="300rem" height="auto">
             </div>
         </div>
     </main>

@@ -26,6 +26,7 @@
                         fclose($myfile);
                     ?>
                 </div>
+                <img src="../img/Informatie_foto's/Schroevendraaier.png" alt="Schroevendraaier" width="300rem" height="auto">
             </div>
         </div>
     </main>

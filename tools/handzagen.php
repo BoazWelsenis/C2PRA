@@ -26,9 +26,10 @@
                         fclose($myfile);
                     ?>
                 </div>
+                <img src="../img/Informatie_foto's/Handzaag.png" alt="Handzaag" width="300rem" height="auto">
             </div>
             <div class="easter-egg">
-            <span>De week kan je ook door de middenzagen</span>
+                <span>De week kan je ook door de middenzagen</span>
             </div>
         </div>
     </main>

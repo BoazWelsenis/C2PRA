@@ -26,6 +26,7 @@
                         fclose($myfile);
                     ?>
                 </div>
+                <img src="../img/Informatie_foto's/Cirkelzaag.png" alt="Cirkelzaag" width="300rem" height="auto">
             </div>
         </div>
     </main>
