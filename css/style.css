@@ -510,7 +510,7 @@ input[type=submit]:hover {
   footer{
 	  margin-top: 200px;
 	  background: #47373a;
-	  position: absolute;
+	  position: relative;
 	  bottom: 0;
 	  width: 100%;
 
