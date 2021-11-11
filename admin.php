@@ -50,7 +50,7 @@ if(!isset($_SESSION['user_id']))
                     <td><?php echo $songtekst['titel']; ?></td>
                     <td><?php echo $songtekst['artiest']; ?></td>
                     <td><?php echo $songtekst['songtekst']; ?></td>
-                    <td><a class="aanpas-link" href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>"><img src="img/pencil.png" alt="aanpassen"></a></td>
+                    <td><a class="admin-link" href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>"><img src="img/pencil.png" alt="aanpassen"></a></td>
                 </tr>
             <?php endforeach; ?>
         </table>
