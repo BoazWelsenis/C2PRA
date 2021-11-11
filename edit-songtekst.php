@@ -39,7 +39,7 @@ if(!isset($_SESSION['user_id']))
 
             <div class="form-group">
                 <label for="titel">Titel</label>
-                <input type="text" name="titel" id="titel" value="<?php echo $songtekst['titel']; ?>">
+                <input type="text" name="titel" id="titel" value="<?php echo $songtekst['titel'];?>" required >
             </div>
             <div class="form-group">
                 <label for="artiest">Artiest</label>
@@ -47,7 +47,7 @@ if(!isset($_SESSION['user_id']))
             </div>
             <div class="form-group">
                 <label for="songtekst">Songtekst</label>
-                <input type="text" name="songtekst" id="songtekst" value="<?php echo $songtekst['songtekst']; ?>">
+                <input type="text" name="songtekst" id="songtekst" value="<?php echo $songtekst['songtekst']; ?>"required>
             </div>
             <input type="submit" value="Bewerken">
         </form>

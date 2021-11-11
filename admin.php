@@ -25,9 +25,9 @@ if(!isset($_SESSION['user_id']))
     <div class="wrapper">
         <h1 class="title-page">Admin</h1>
         
-        <div class="fontsize-18">
+        <div class="fontsize-18 edit_add_icons">
             <h2>Songteksten</h2>
-            <a class="admin-link" href="add-songtekst.php">Songtekst Toevoegen ></a>
+            <a class="admin-link" href="add-songtekst.php"><img src="img/plus.png" alt="toevoegen"></a>
         </div>
         <?php
             require_once 'backend/conn.php';
@@ -50,14 +50,14 @@ if(!isset($_SESSION['user_id']))
                     <td><?php echo $songtekst['titel']; ?></td>
                     <td><?php echo $songtekst['artiest']; ?></td>
                     <td><?php echo $songtekst['songtekst']; ?></td>
-                    <td><a class="aanpas-link" href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>">Aanpassen</a></td>
+                    <td><a class="aanpas-link" href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>"><img src="img/pencil.png" alt="aanpassen"></a></td>
                 </tr>
             <?php endforeach; ?>
         </table>
 
-        <div class="mt-2rem fontsize-18">
+        <div class="mt-2rem fontsize-18 edit_add_icons">
             <h2>Boeken</h2>
-            <a class="admin-link" href="add-book.php">Boek Toevoegen > </a>
+            <a class="admin-link" href="add-book.php"><img src="img/plus.png" alt="plus"></a>
         </div>
 
         <?php
@@ -82,7 +82,7 @@ if(!isset($_SESSION['user_id']))
                     <td><?php echo $boek['auteur']; ?></td>
                     <td><?php echo $boek['beschrijving']; ?></td>
                     <td><?php echo $boek['prijs']; ?></td>
-                    <td><a class="aanpas-link" href="edit-book.php?id=<?php echo $boek['id']; ?>">Aanpassen</a></td>
+                    <td><a class="admin-link" href="edit-book.php?id=<?php echo $boek['id']; ?>"><img src="img/pencil.png" alt="aanpassen" style=""></a></td>
                 </tr>
             <?php endforeach; ?>
         </table>

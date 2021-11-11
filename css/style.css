@@ -116,8 +116,19 @@ span {
 	margin-top: 1rem;
 }
 
-.admin-link{
-	color: #0f9cef;
+.edit_add_icons{
+	display: flex;
+}
+
+.admin-link img{
+	filter: invert(1);
+	width: 2rem;
+}
+
+.admin-link img:hover{
+	filter: invert(0.5);
+	transition: 0.10s;
+	
 }
 
 .blue-bg{
