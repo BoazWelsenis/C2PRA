@@ -25,7 +25,7 @@
                         fclose($myfile);
                     ?>
                 </div>
-                <img src="../img/Informatie_foto's/darth_vader.png" alt="darth_vader" width="300rem" height="auto">
+                <img src="../img/information-pictures/darth_vader.png" alt="darth_vader" width="300rem" height="auto">
             </div>
         </div>
     </main>

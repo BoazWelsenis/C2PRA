@@ -26,7 +26,7 @@
                         fclose($myfile);
                     ?>
                 </div>
-                <img src="../img/Informatie_foto's/Kettingzaag.png" alt="Kettingzaag" width="300rem" height="auto">
+                <img src="../img/information-pictures/Kettingzaag.png" alt="Kettingzaag" width="300rem" height="auto">
             </div>
         </div>
     </main>
