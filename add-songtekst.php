@@ -18,7 +18,7 @@
 
             <div class="form-group">
                 <label for="titel">Titel</label>
-                <input type="text" name="titel" id="titel">
+                <input type="text" name="titel" id="titel" required>
             </div>
             <div class="form-group">
                 <label for="artiest">Artiest</label>
@@ -26,7 +26,7 @@
             </div>
             <div class="form-group">
                 <label for="songtekst">Songtekst</label>
-                <input type="text" name="songtekst" id="songtekst">
+                <input type="text" name="songtekst" id="songtekst" required>
             </div>
             <input type="submit" value="Toevoegen">
         </form>

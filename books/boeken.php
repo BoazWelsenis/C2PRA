@@ -171,7 +171,7 @@
                         </div>
                         <div class="price-row">
                             <div class="price">
-                                <p>&euro;<?php echo ucfirst($boek['prijs']); ?></p>
+                                <p>&euro;<?php echo $boek['prijs']; ?></p>
                             </div>
                             <div class="heart-btn">
                                 <div class="content">
