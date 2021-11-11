@@ -10,23 +10,26 @@
 </head>
 <body>
     <?php include_once('header.php') ?>
+
     <div class="form-style">
-    <h2>Songtekst toevoegen</h2>
-    <form action="backend/songtekstenController.php" method="POST">
-        <div class="form-group">
-            <label for="titel">Titel</label>
-            <input type="text" name="titel" id="titel">
-        </div>
-        <div class="form-group">
-            <label for="artiest">Artiest</label>
-            <input type="text" name="artiest" id="artiest">
-        </div>
-        <div class="form-group">
-            <label for="songtekst">Songtekst</label>
-            <input type="text" name="songtekst" id="songtekst">
-        </div>
-        <input type="submit" value="Toevoegen">
-    </form>
-</div>
+        <h2>Songtekst toevoegen</h2>
+        <form action="backend/songtekstenController.php" method="POST">
+            <input type="hidden" name="action" value="add">
+
+            <div class="form-group">
+                <label for="titel">Titel</label>
+                <input type="text" name="titel" id="titel">
+            </div>
+            <div class="form-group">
+                <label for="artiest">Artiest</label>
+                <input type="text" name="artiest" id="artiest">
+            </div>
+            <div class="form-group">
+                <label for="songtekst">Songtekst</label>
+                <input type="text" name="songtekst" id="songtekst">
+            </div>
+            <input type="submit" value="Toevoegen">
+        </form>
+    </div>
 </body>
 </html>

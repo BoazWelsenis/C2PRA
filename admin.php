@@ -28,23 +28,13 @@ if(!isset($_SESSION['user_id']))
         <div class="fontsize-18">
             <h2>Songteksten</h2>
             <a class="admin-link" href="add-songtekst.php">Songtekst Toevoegen ></a>
-            <br>
-            <a class="admin-link" href="edit-songtekst.php">Songtekst Bewerken ></a>
         </div>
-
-        <div class="mt-2rem fontsize-18">
-            <h2>Boeken</h2>
-            <a class="admin-link" href="add-book.php">Boek Toevoegen > </a>
-            <br>
-            <a class="admin-link" href="edit-book.php">Boek Bewerken > </a>   
-        </div>
-
         <?php
-        require_once 'backend/conn.php';
-        $query = "SELECT * FROM songteksten";
-        $statement = $conn->prepare($query);
-        $statement->execute();
-        $songteksten = $statement->fetchAll(PDO::FETCH_ASSOC);
+            require_once 'backend/conn.php';
+            $query = "SELECT * FROM songteksten";
+            $statement = $conn->prepare($query);
+            $statement->execute();
+            $songteksten = $statement->fetchAll(PDO::FETCH_ASSOC);
         ?>
 
         <table>
@@ -59,6 +49,37 @@ if(!isset($_SESSION['user_id']))
                     <td><?php echo $songtekst['artiest']; ?></td>
                     <td><?php echo $songtekst['songtekst']; ?></td>
                     <td><a href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>">aanpassen</a></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+
+        <div class="mt-2rem fontsize-18">
+            <h2>Boeken</h2>
+            <a class="admin-link" href="add-book.php">Boek Toevoegen > </a>
+        </div>
+
+        <?php
+            require_once 'backend/conn.php';
+            $query = "SELECT * FROM boeken";
+            $statement = $conn->prepare($query);
+            $statement->execute();
+            $boeken = $statement->fetchAll(PDO::FETCH_ASSOC);
+        ?>
+
+        <table>
+            <tr>
+                <th>Titel</th>
+                <th>Auteur</th>
+                <th>Beschrijving</th>
+                <th>Prijs</th>
+            </tr>
+            <?php foreach($boeken as $boek): ?>
+                <tr>
+                    <td><?php echo $boek['titel']; ?></td>
+                    <td><?php echo $boek['auteur']; ?></td>
+                    <td><?php echo $boek['beschrijving']; ?></td>
+                    <td><?php echo $boek['prijs']; ?></td>
+                    <td><a href="edit-book.php?id=<?php echo $boek['id']; ?>">aanpassen</a></td>
                 </tr>
             <?php endforeach; ?>
         </table>

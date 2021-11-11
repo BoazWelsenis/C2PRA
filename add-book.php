@@ -13,6 +13,8 @@
     <div class="form-style">
     <h2>Boeken toevoegen</h2>
     <form action="backend/boekenController.php" method="POST">
+            <input type="hidden" name="action" value="add">
+
         <div class="form-group">
             <label for="titel">Titel</label>
             <input type="text" name="titel" id="titel">
