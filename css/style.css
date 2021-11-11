@@ -536,10 +536,28 @@ input[type=submit]:hover {
 	font-size: 18px;
 }
 
-table{
-    width: 100%;
-}
+/* Tabel CSS in admin */
+#tbi {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #tbi td, #tbi th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
 
-th{
-    text-align: left;
-}
+  #tbi th {
+	  font-size: 15px;
+  }
+  
+  #tbi tr:nth-child(even){background-color: #695b5e}
+  
+  #tbi {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #47373a;
+	color: white;
+  }

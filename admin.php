@@ -37,11 +37,13 @@ if(!isset($_SESSION['user_id']))
             $songteksten = $statement->fetchAll(PDO::FETCH_ASSOC);
         ?>
 
-        <table>
+        <br>
+        <table id="tbi">
             <tr>
                 <th>Titel</th>
                 <th>Artiest</th>
                 <th>Songtekst</th>
+                <th>Aanpassen</th>
             </tr>
             <?php foreach($songteksten as $songtekst): ?>
                 <tr>
