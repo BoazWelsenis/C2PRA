@@ -561,3 +561,10 @@ input[type=submit]:hover {
 	background-color: #47373a;
 	color: white;
   }
+
+  .aanpas-link{
+	color: lightblue;
+    text-decoration: underline;
+	font-size: 14px;
+	font-weight: bold;
+  }

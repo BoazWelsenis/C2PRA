@@ -38,7 +38,7 @@ if(!isset($_SESSION['user_id']))
         ?>
 
         <br>
-        <table id="tbi">
+        <table id="tbi" class="fontsize-18">
             <tr>
                 <th>Titel</th>
                 <th>Artiest</th>
@@ -50,7 +50,7 @@ if(!isset($_SESSION['user_id']))
                     <td><?php echo $songtekst['titel']; ?></td>
                     <td><?php echo $songtekst['artiest']; ?></td>
                     <td><?php echo $songtekst['songtekst']; ?></td>
-                    <td><a href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>">aanpassen</a></td>
+                    <td><a class="aanpas-link" href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>">Aanpassen</a></td>
                 </tr>
             <?php endforeach; ?>
         </table>
@@ -68,12 +68,13 @@ if(!isset($_SESSION['user_id']))
             $boeken = $statement->fetchAll(PDO::FETCH_ASSOC);
         ?>
 
-        <table>
+        <table id="tbi" class="fontsize-18">
             <tr>
                 <th>Titel</th>
                 <th>Auteur</th>
                 <th>Beschrijving</th>
                 <th>Prijs</th>
+                <th>Aanpassen</th>
             </tr>
             <?php foreach($boeken as $boek): ?>
                 <tr>
@@ -81,7 +82,7 @@ if(!isset($_SESSION['user_id']))
                     <td><?php echo $boek['auteur']; ?></td>
                     <td><?php echo $boek['beschrijving']; ?></td>
                     <td><?php echo $boek['prijs']; ?></td>
-                    <td><a href="edit-book.php?id=<?php echo $boek['id']; ?>">aanpassen</a></td>
+                    <td><a class="aanpas-link" href="edit-book.php?id=<?php echo $boek['id']; ?>">Aanpassen</a></td>
                 </tr>
             <?php endforeach; ?>
         </table>
