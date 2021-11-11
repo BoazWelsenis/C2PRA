@@ -10,23 +10,36 @@
 </head>
 <body>
     <?php include_once('header.php') ?>
+    
     <div class="form-style">
-    <h2>Songtekst bewerken</h2>
-    <form action="backend/songtekstenController.php" method="EDIT">
-        <div class="form-group">
-            <label for="titel">Titel</label>
-            <input type="text" name="titel" id="titel">
-        </div>
-        <div class="form-group">
-            <label for="artiest">Artiest</label>
-            <input type="text" name="artiest" id="artiest">
-        </div>
-        <div class="form-group">
-            <label for="songtekst">Songtekst</label>
-            <input type="text" name="songtekst" id="songtekst">
-        </div>
-        <input type="submit" value="Bewerken">
-    </form>
-</div>
+        <h2>Songtekst bewerken</h2>
+        <?php 
+            $id = $_GET['id'];
+            require_once 'backend/conn.php';
+            $query = "SELECT * FROM songteksten WHERE id = :id";
+            $statement = $conn->prepare($query);
+            $statement->execute([":id" => $id]);
+            $songtekst = $statement->fetch(PDO::FETCH_ASSOC);
+        ?>
+
+        <form action="backend/songtekstenController.php" method="POST">
+                <input type="hidden" name="action" value="edit">
+                <input type="hidden" name="id" value="<?php echo $id; ?>">
+
+            <div class="form-group">
+                <label for="titel">Titel</label>
+                <input type="text" name="titel" id="titel" value="<?php echo $songtekst['titel']; ?>">
+            </div>
+            <div class="form-group">
+                <label for="artiest">Artiest</label>
+                <input type="text" name="artiest" id="artiest" value="<?php echo $songtekst['artiest']; ?>">
+            </div>
+            <div class="form-group">
+                <label for="songtekst">Songtekst</label>
+                <input type="text" name="songtekst" id="songtekst" value="<?php echo $songtekst['songtekst']; ?>">
+            </div>
+            <input type="submit" value="Bewerken">
+        </form>
+    </div>
 </body>
 </html>
