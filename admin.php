@@ -38,6 +38,30 @@ if(!isset($_SESSION['user_id']))
             <br>
             <a class="admin-link" href="edit-book.php">Boek Bewerken > </a>   
         </div>
+
+        <?php
+        require_once 'backend/conn.php';
+        $query = "SELECT * FROM songteksten";
+        $statement = $conn->prepare($query);
+        $statement->execute();
+        $songteksten = $statement->fetchAll(PDO::FETCH_ASSOC);
+        ?>
+
+        <table>
+            <tr>
+                <th>Titel</th>
+                <th>Artiest</th>
+                <th>Songtekst</th>
+            </tr>
+            <?php foreach($songteksten as $songtekst): ?>
+                <tr>
+                    <td><?php echo $songtekst['titel']; ?></td>
+                    <td><?php echo $songtekst['artiest']; ?></td>
+                    <td><?php echo $songtekst['songtekst']; ?></td>
+                    <td><a href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>">aanpassen</a></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
     </div>
 </body>
 </html>
