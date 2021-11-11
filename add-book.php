@@ -1,3 +1,14 @@
+<?php session_start(); ?>
+
+<?php
+require_once 'backend/config.php';
+if(!isset($_SESSION['user_id']))
+{
+	header("Location: $base_url/login.php");
+	exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +24,8 @@
     <div class="form-style">
     <h2>Boeken toevoegen</h2>
     <form action="backend/boekenController.php" method="POST">
+            <input type="hidden" name="action" value="add">
+
         <div class="form-group">
             <label for="titel">Titel</label>
             <input type="text" name="titel" id="titel">

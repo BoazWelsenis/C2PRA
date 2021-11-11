@@ -25,15 +25,67 @@ if(!isset($_SESSION['user_id']))
     <div class="wrapper">
         <h1 class="title-page">Admin</h1>
         
-        <div class="fontsize-18">
-            <h2>Songteksten Toevoegen</h2>
-            <a class="admin-link" href="add-songtekst.php">Songtekst Toevoegen ></a>
+        <div class="fontsize-18 edit_add_icons">
+            <h2>Songteksten</h2>
+            <a class="admin-link" href="add-songtekst.php"><img src="img/plus.png" alt="toevoegen"></a>
+        </div>
+        <?php
+            require_once 'backend/conn.php';
+            $query = "SELECT * FROM songteksten";
+            $statement = $conn->prepare($query);
+            $statement->execute();
+            $songteksten = $statement->fetchAll(PDO::FETCH_ASSOC);
+        ?>
+
+        <br>
+        <table id="tbi" class="fontsize-18">
+            <tr>
+                <th>Titel</th>
+                <th>Artiest</th>
+                <th>Songtekst</th>
+                <th>Aanpassen</th>
+            </tr>
+            <?php foreach($songteksten as $songtekst): ?>
+                <tr>
+                    <td><?php echo $songtekst['titel']; ?></td>
+                    <td><?php echo $songtekst['artiest']; ?></td>
+                    <td><?php echo $songtekst['songtekst']; ?></td>
+                    <td><a class="admin-link" href="edit-songtekst.php?id=<?php echo $songtekst['id']; ?>"><img src="img/pencil.png" alt="aanpassen"></a></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+
+        <div class="mt-2rem fontsize-18 edit_add_icons">
+            <h2>Boeken</h2>
+            <a class="admin-link" href="add-book.php"><img src="img/plus.png" alt="plus"></a>
         </div>
 
-        <div class="mt-2rem fontsize-18">
-            <h2>Boeken Toevoegen</h2>
-            <a class="admin-link" href="add-book.php">Boek Toevoegen > </a>
-        </div>
+        <?php
+            require_once 'backend/conn.php';
+            $query = "SELECT * FROM boeken";
+            $statement = $conn->prepare($query);
+            $statement->execute();
+            $boeken = $statement->fetchAll(PDO::FETCH_ASSOC);
+        ?>
+
+        <table id="tbi" class="fontsize-18">
+            <tr>
+                <th>Titel</th>
+                <th>Auteur</th>
+                <th>Beschrijving</th>
+                <th>Prijs</th>
+                <th>Aanpassen</th>
+            </tr>
+            <?php foreach($boeken as $boek): ?>
+                <tr>
+                    <td><?php echo $boek['titel']; ?></td>
+                    <td><?php echo $boek['auteur']; ?></td>
+                    <td><?php echo $boek['beschrijving']; ?></td>
+                    <td><?php echo $boek['prijs']; ?></td>
+                    <td><a class="admin-link" href="edit-book.php?id=<?php echo $boek['id']; ?>"><img src="img/pencil.png" alt="aanpassen" style=""></a></td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
     </div>
 </body>
 </html>

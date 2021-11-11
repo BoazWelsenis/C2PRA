@@ -116,8 +116,19 @@ span {
 	margin-top: 1rem;
 }
 
-.admin-link{
-	color: #0f9cef;
+.edit_add_icons{
+	display: flex;
+}
+
+.admin-link img{
+	filter: invert(1);
+	width: 2rem;
+}
+
+.admin-link img:hover{
+	filter: invert(0.5);
+	transition: 0.10s;
+	
 }
 
 .blue-bg{
@@ -535,3 +546,36 @@ input[type=submit]:hover {
 .contact-info-footer p, .contact-info-footer a{
 	font-size: 18px;
 }
+
+/* Tabel CSS in admin */
+#tbi {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #tbi td, #tbi th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+
+  #tbi th {
+	  font-size: 15px;
+  }
+  
+  #tbi tr:nth-child(even){background-color: #695b5e}
+  
+  #tbi {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #47373a;
+	color: white;
+  }
+
+  .aanpas-link{
+	color: lightblue;
+    text-decoration: underline;
+	font-size: 14px;
+	font-weight: bold;
+  }
