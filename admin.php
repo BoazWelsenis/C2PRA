@@ -26,13 +26,17 @@ if(!isset($_SESSION['user_id']))
         <h1 class="title-page">Admin</h1>
         
         <div class="fontsize-18">
-            <h2>Songteksten Toevoegen</h2>
+            <h2>Songteksten</h2>
             <a class="admin-link" href="add-songtekst.php">Songtekst Toevoegen ></a>
+            <br>
+            <a class="admin-link" href="edit-songtekst.php">Songtekst Bewerken ></a>
         </div>
 
         <div class="mt-2rem fontsize-18">
-            <h2>Boeken Toevoegen</h2>
+            <h2>Boeken</h2>
             <a class="admin-link" href="add-book.php">Boek Toevoegen > </a>
+            <br>
+            <a class="admin-link" href="edit-book.php">Boek Bewerken > </a>   
         </div>
     </div>
 </body>
