@@ -1,3 +1,14 @@
+<?php session_start(); ?>
+
+<?php
+require_once 'backend/config.php';
+if(!isset($_SESSION['user_id']))
+{
+	header("Location: $base_url/login.php");
+	exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
